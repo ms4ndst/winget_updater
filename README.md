@@ -3,7 +3,7 @@
 A Windows application that runs as a service and monitors available package updates using Microsoft's Winget package manager. The application displays a notification icon in the system tray, showing the number of available updates and providing notifications when new updates are available.
 
 ## DISCLAIMER
-This application is made using Warp terminal AI agent. None of the code is done by me but is created using prompting as a test to see how well the AI agent could complete the task at hand. There are still some UI bugs like buttons not working as they should and I will try to fix this as son as possible but the application works more or less as it should.  The code is provided as-is and may contain bugs or issues. Use at your own risk.
+This application is made using Warp terminal AI agent. None of the code is done by me but is created using prompting as a test to see how well the AI agent could complete the task at hand. There are still some UI bugs like buttons not working as they should and I will try to fix this as soon as possible but the application works more or less as it should.  The code is provided as-is and may contain bugs or issues. Use at your own risk.
 
 ## Features
 
