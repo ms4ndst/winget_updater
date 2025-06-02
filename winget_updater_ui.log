@@ -1,0 +1,426 @@
+2025-05-28 09:23:06,018 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 09:23:06,019 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 09:23:06,030 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 09:23:06,188 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 09:23:06,193 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 09:23:06,194 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 09:23:06,194 - WingetUpdaterTray - INFO - Starting Winget Updater tray application
+2025-05-28 09:23:06,194 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:23:11,202 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:23:11,202 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:23:16,214 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:23:21,219 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:23:21,220 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:23:26,242 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:23:31,246 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:23:31,246 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:23:36,267 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:23:39,626 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:23:41,273 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:23:41,274 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:23:44,631 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:23:44,632 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:23:46,294 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:23:50,333 - WingetUpdaterTray - INFO - Exiting application
+2025-05-28 09:24:14,859 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 09:24:14,859 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 09:24:14,859 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 09:24:15,007 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 09:24:15,009 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 09:24:15,010 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 09:24:15,010 - WingetUpdaterTray - INFO - Starting Winget Updater tray application
+2025-05-28 09:24:15,010 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:24:20,017 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:24:20,018 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:24:20,675 - WingetUpdaterTray - INFO - Processing window creation request: settings
+2025-05-28 09:24:20,776 - WingetUpdaterTray - INFO - Creating settings window
+2025-05-28 09:24:20,776 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:24:25,029 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:24:25,782 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:24:25,783 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:24:30,035 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:24:30,035 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:24:31,594 - WingetUpdaterTray - INFO - Processing window creation request: updates
+2025-05-28 09:24:31,695 - WingetUpdaterTray - INFO - Creating updates window
+2025-05-28 09:24:31,696 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:24:35,093 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:24:36,701 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:24:36,701 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:24:40,100 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:24:40,100 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:24:41,683 - WingetUpdaterTray - INFO - Processing window creation request: settings
+2025-05-28 09:24:41,785 - WingetUpdaterTray - INFO - Creating settings window
+2025-05-28 09:24:41,785 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:24:45,126 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:24:46,790 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:24:46,791 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:24:50,132 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:24:50,132 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:24:53,261 - WingetUpdaterTray - INFO - Exiting application
+2025-05-28 09:28:02,016 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 09:28:02,017 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 09:28:02,018 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 09:28:02,165 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 09:28:02,169 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 09:28:02,170 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 09:28:02,170 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:28:02,170 - WingetUpdaterTray - INFO - Starting Winget Updater tray application
+2025-05-28 09:28:07,177 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:28:07,178 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:28:12,193 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:28:17,199 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:28:17,200 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:28:22,225 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:28:27,233 - IPCClient - ERROR - Timeout connecting to IPC server
+2025-05-28 09:28:27,234 - WingetUpdaterTray - WARNING - Could not connect to service
+2025-05-28 09:28:31,901 - WingetUpdaterTray - INFO - Exiting application
+2025-05-28 09:31:56,940 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 09:31:56,941 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 09:31:56,942 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 09:31:57,092 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 09:31:57,095 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 09:31:57,096 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:31:57,096 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 09:31:57,096 - WingetUpdaterTray - INFO - Starting Winget Updater tray application
+2025-05-28 09:31:57,097 - IPCClient - INFO - Connected to IPC server
+2025-05-28 09:31:57,098 - WingetUpdaterTray - INFO - Connected to service
+2025-05-28 09:32:15,690 - WingetUpdaterTray - INFO - Processing window creation request: settings
+2025-05-28 09:32:15,791 - WingetUpdaterTray - INFO - Creating settings window
+2025-05-28 09:32:15,953 - WingetUpdaterTray - INFO - Settings window created with geometry: 400x350+952+545
+2025-05-28 09:32:16,171 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,276 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,380 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,483 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,586 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,689 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,792 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,895 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:16,997 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,101 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,205 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,308 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,411 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,515 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,620 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,723 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,828 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:17,932 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,035 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,139 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,244 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,348 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,452 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,556 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,660 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,762 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,868 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:18,972 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,077 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,181 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,285 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,388 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,492 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,595 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,698 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,800 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:19,910 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,019 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,123 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,227 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,332 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,436 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,541 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,644 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,748 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,850 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:20,955 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,059 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,168 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,278 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,382 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,487 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,591 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,699 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,805 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:21,910 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,014 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,119 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,223 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,327 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,431 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,536 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,640 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,746 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,852 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:22,957 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,062 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,166 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,269 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,373 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,479 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,584 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,689 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,793 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:23,899 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,003 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,108 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,211 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,319 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,424 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,529 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,634 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,738 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,843 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:24,949 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,053 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,157 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,260 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,365 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,471 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,590 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,695 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,799 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:25,908 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,016 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,123 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,227 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,338 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,444 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,549 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,655 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,762 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,869 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:26,975 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,089 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,194 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,320 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,439 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,545 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,652 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,758 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,869 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:27,981 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,087 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,191 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,296 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,403 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,506 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,612 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,719 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,824 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:28,928 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,045 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,155 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,276 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,393 - WingetUpdaterTray - INFO - Requesting update check
+2025-05-28 09:32:29,395 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,500 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,603 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,707 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,812 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:29,915 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,020 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,126 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,229 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,333 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,438 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,541 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,648 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,750 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,855 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:30,962 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,067 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,171 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,275 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,379 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,484 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,587 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,690 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,797 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:31,903 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,008 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,116 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,222 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,324 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,428 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,531 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,634 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,738 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,842 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:32,947 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,052 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,164 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,266 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,370 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,473 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,577 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,679 - WingetUpdaterTray - INFO - Window not yet viewable, rescheduling focus
+2025-05-28 09:32:33,753 - WingetUpdaterTray - INFO - Exiting application
+2025-05-28 09:52:21,432 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 09:52:21,433 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 09:52:21,434 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 09:52:21,579 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 09:52:21,583 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 09:52:21,583 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 09:52:21,583 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:52:21,583 - WingetUpdaterTray - INFO - Starting Winget Updater tray application
+2025-05-28 09:52:21,584 - IPCClient - INFO - Connected to IPC server
+2025-05-28 09:52:21,585 - WingetUpdaterTray - INFO - Connected to service
+2025-05-28 09:52:33,920 - WingetUpdaterTray - INFO - Requesting update check
+2025-05-28 09:52:49,372 - WingetUpdaterTray - INFO - Queuing settings window creation (attempt 1)
+2025-05-28 09:52:49,414 - WingetUpdaterTray - INFO - Processing window creation request: settings
+2025-05-28 09:52:49,515 - WingetUpdaterTray - INFO - Creating settings window
+2025-05-28 09:52:49,515 - WingetUpdaterTray - INFO - Starting settings window creation at 1748418769.515812
+2025-05-28 09:52:49,650 - WingetUpdaterTray - INFO - Settings window created with geometry: 400x350+952+545
+2025-05-28 09:52:49,657 - WingetUpdaterTray - INFO - Preparing window for display
+2025-05-28 09:52:49,775 - WingetUpdaterTray - INFO - Window prepared with geometry: 400x350+952+545, viewable: 1, mapped: 1
+2025-05-28 09:52:49,776 - WingetUpdaterTray - INFO - Window state after preparation: exists: 1, viewable: 1, mapped: 1, geometry: 400x350+952+545
+2025-05-28 09:52:49,786 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.01s'}
+2025-05-28 09:52:49,805 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:49,807 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 1/6)
+2025-05-28 09:52:50,009 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 1, 'elapsed_time': '0.23s'}
+2025-05-28 09:52:50,013 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,014 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 2/6)
+2025-05-28 09:52:50,014 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.00s'}
+2025-05-28 09:52:50,015 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,017 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 1/6)
+2025-05-28 09:52:50,029 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 2, 'elapsed_time': '0.02s'}
+2025-05-28 09:52:50,031 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,034 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 3/6)
+2025-05-28 09:52:50,035 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 1, 'elapsed_time': '0.02s'}
+2025-05-28 09:52:50,037 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,039 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 2/6)
+2025-05-28 09:52:50,050 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 3, 'elapsed_time': '0.04s'}
+2025-05-28 09:52:50,052 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,054 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 4/6)
+2025-05-28 09:52:50,055 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 2, 'elapsed_time': '0.04s'}
+2025-05-28 09:52:50,056 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,057 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 3/6)
+2025-05-28 09:52:50,080 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 4, 'elapsed_time': '0.07s'}
+2025-05-28 09:52:50,083 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,186 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 3, 'elapsed_time': '0.17s'}
+2025-05-28 09:52:50,224 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,231 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 4/6)
+2025-05-28 09:52:50,248 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 4, 'elapsed_time': '0.23s'}
+2025-05-28 09:52:50,254 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,451 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 5/6)
+2025-05-28 09:52:50,451 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 5/6)
+2025-05-28 09:52:50,473 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 5, 'elapsed_time': '0.46s'}
+2025-05-28 09:52:50,474 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,603 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 5, 'elapsed_time': '0.59s'}
+2025-05-28 09:52:50,635 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,803 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 6/6)
+2025-05-28 09:52:50,804 - WingetUpdaterTray - INFO - Retrying focus for settings window (attempt 6/6)
+2025-05-28 09:52:50,827 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 6, 'elapsed_time': '0.81s'}
+2025-05-28 09:52:50,831 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,831 - WingetUpdaterTray - WARNING - Final focus attempt for settings window
+2025-05-28 09:52:50,834 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 6, 'elapsed_time': '0.82s'}
+2025-05-28 09:52:50,835 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:52:50,835 - WingetUpdaterTray - WARNING - Final focus attempt for settings window
+2025-05-28 09:53:03,111 - WingetUpdaterTray - INFO - Settings were updated
+2025-05-28 09:53:33,599 - WingetUpdaterTray - INFO - Queuing updates window creation (attempt 1)
+2025-05-28 09:53:33,634 - WingetUpdaterTray - INFO - Processing window creation request: updates
+2025-05-28 09:53:33,735 - WingetUpdaterTray - INFO - Creating updates window
+2025-05-28 09:53:33,805 - WingetUpdaterTray - INFO - Updates window created with geometry: 700x400+802+520
+2025-05-28 09:53:33,805 - WingetUpdaterTray - INFO - Preparing window for display
+2025-05-28 09:53:33,905 - WingetUpdaterTray - INFO - Window prepared with geometry: 700x400+802+520, viewable: 1, mapped: 1
+2025-05-28 09:53:33,906 - WingetUpdaterTray - INFO - Updates window state after preparation: exists: 1, viewable: 1, mapped: 1, geometry: 700x400+802+520
+2025-05-28 09:53:33,906 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.00s'}
+2025-05-28 09:53:33,908 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:33,909 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 1/6)
+2025-05-28 09:53:34,116 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 1, 'elapsed_time': '0.21s'}
+2025-05-28 09:53:34,119 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,121 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 2/6)
+2025-05-28 09:53:34,121 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.00s'}
+2025-05-28 09:53:34,123 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,124 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 1/6)
+2025-05-28 09:53:34,137 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 2, 'elapsed_time': '0.02s'}
+2025-05-28 09:53:34,139 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,142 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 3/6)
+2025-05-28 09:53:34,143 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 1, 'elapsed_time': '0.02s'}
+2025-05-28 09:53:34,148 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,150 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 2/6)
+2025-05-28 09:53:34,161 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 3, 'elapsed_time': '0.04s'}
+2025-05-28 09:53:34,164 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,165 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 4/6)
+2025-05-28 09:53:34,166 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 2, 'elapsed_time': '0.05s'}
+2025-05-28 09:53:34,167 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,171 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 3/6)
+2025-05-28 09:53:34,192 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 4, 'elapsed_time': '0.07s'}
+2025-05-28 09:53:34,194 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,278 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 3, 'elapsed_time': '0.16s'}
+2025-05-28 09:53:34,298 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,302 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 4/6)
+2025-05-28 09:53:34,330 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 4, 'elapsed_time': '0.21s'}
+2025-05-28 09:53:34,334 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,474 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 5/6)
+2025-05-28 09:53:34,476 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 5/6)
+2025-05-28 09:53:34,498 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 5, 'elapsed_time': '0.38s'}
+2025-05-28 09:53:34,500 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,590 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 5, 'elapsed_time': '0.47s'}
+2025-05-28 09:53:34,606 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,754 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 6/6)
+2025-05-28 09:53:34,755 - WingetUpdaterTray - INFO - Retrying focus for updates window (attempt 6/6)
+2025-05-28 09:53:34,778 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 6, 'elapsed_time': '0.66s'}
+2025-05-28 09:53:34,781 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,781 - WingetUpdaterTray - WARNING - Final focus attempt for updates window
+2025-05-28 09:53:34,784 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 6, 'elapsed_time': '0.66s'}
+2025-05-28 09:53:34,786 - WingetUpdaterTray - WARNING - Focus attempt failed: (0, 'SetForegroundWindow', 'No error message is available')
+2025-05-28 09:53:34,786 - WingetUpdaterTray - WARNING - Final focus attempt for updates window
+2025-05-28 09:54:00,284 - WingetUpdaterTray - INFO - Exiting application
+2025-05-28 09:57:12,477 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 09:57:12,478 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 09:57:12,479 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 09:57:12,619 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 09:57:12,623 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 09:57:12,623 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 09:57:12,624 - WingetUpdaterTray - INFO - Starting Winget Updater tray application
+2025-05-28 09:57:12,624 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 09:57:12,626 - IPCClient - INFO - Connected to IPC server
+2025-05-28 09:57:12,626 - WingetUpdaterTray - INFO - Connected to service
+2025-05-28 09:57:22,289 - WingetUpdaterTray - INFO - Requesting update check
+2025-05-28 09:57:51,865 - WingetUpdaterTray - INFO - Queuing settings window creation (attempt 1)
+2025-05-28 09:57:51,920 - WingetUpdaterTray - INFO - Processing window creation request: settings
+2025-05-28 09:57:52,022 - WingetUpdaterTray - INFO - Creating settings window
+2025-05-28 09:57:52,023 - WingetUpdaterTray - INFO - Starting settings window creation at 1748419072.02338
+2025-05-28 09:57:52,232 - WingetUpdaterTray - INFO - Settings window created with geometry: 400x350+952+545
+2025-05-28 09:57:52,243 - WingetUpdaterTray - INFO - Preparing window for display
+2025-05-28 09:57:52,404 - WingetUpdaterTray - INFO - Window prepared with geometry: 400x350+952+545, viewable: 1, mapped: 1
+2025-05-28 09:57:52,406 - WingetUpdaterTray - INFO - Window state after preparation: exists: 1, viewable: 1, mapped: 1, geometry: 400x350+952+545
+2025-05-28 09:57:52,406 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.00s'}
+2025-05-28 09:57:52,414 - WingetUpdaterTray - INFO - Settings window focused successfully
+2025-05-28 09:57:52,616 - WingetUpdaterTray - INFO - Settings window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '400x350+952+545', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.00s'}
+2025-05-28 09:57:52,621 - WingetUpdaterTray - INFO - Settings window focused successfully
+2025-05-28 09:58:05,429 - WingetUpdaterTray - INFO - Settings were updated
+2025-05-28 09:58:19,406 - WingetUpdaterTray - INFO - Queuing updates window creation (attempt 1)
+2025-05-28 09:58:19,416 - WingetUpdaterTray - INFO - Processing window creation request: updates
+2025-05-28 09:58:19,517 - WingetUpdaterTray - INFO - Creating updates window
+2025-05-28 09:58:19,613 - WingetUpdaterTray - INFO - Updates window created with geometry: 700x400+802+520
+2025-05-28 09:58:19,613 - WingetUpdaterTray - INFO - Preparing window for display
+2025-05-28 09:58:19,739 - WingetUpdaterTray - INFO - Window prepared with geometry: 700x400+802+520, viewable: 1, mapped: 1
+2025-05-28 09:58:19,740 - WingetUpdaterTray - INFO - Updates window state after preparation: exists: 1, viewable: 1, mapped: 1, geometry: 700x400+802+520
+2025-05-28 09:58:19,740 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.00s'}
+2025-05-28 09:58:19,745 - WingetUpdaterTray - INFO - Updates window focused successfully
+2025-05-28 09:58:19,947 - WingetUpdaterTray - INFO - Updates window state check: {'exists': 1, 'viewable': 1, 'mapped': 1, 'geometry': '700x400+802+520', 'has_focus': True, 'retry': 0, 'elapsed_time': '0.00s'}
+2025-05-28 09:58:19,955 - WingetUpdaterTray - INFO - Updates window focused successfully
+2025-05-28 09:58:26,154 - WingetUpdaterTray - INFO - Exiting application
+2025-05-28 11:13:30,522 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 11:13:30,525 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 11:13:30,526 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 11:13:30,693 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 11:13:30,695 - WingetUpdaterTray - INFO - System tray menu setup completed successfully
+2025-05-28 11:13:30,699 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 11:13:30,699 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 11:13:30,699 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 11:13:30,702 - IPCClient - INFO - Connected to IPC server
+2025-05-28 11:13:30,703 - WingetUpdaterTray - INFO - Connected to service
+2025-05-28 11:14:51,236 - WingetUpdaterTray - INFO - WingetUpdaterTray initializing
+2025-05-28 11:14:51,237 - WingetUpdaterTray - INFO - Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2025-05-28 11:14:51,238 - WingetUpdaterTray - INFO - Tkinter version: 8.6
+2025-05-28 11:14:51,410 - WingetUpdaterTray - INFO - System tray icon created
+2025-05-28 11:14:51,411 - WingetUpdaterTray - INFO - System tray menu setup completed successfully
+2025-05-28 11:14:51,413 - WingetUpdaterTray - INFO - Starting connection manager thread
+2025-05-28 11:14:51,415 - WingetUpdaterTray - INFO - Starting status updater thread
+2025-05-28 11:14:51,415 - WingetUpdaterTray - INFO - Attempting to connect to service
+2025-05-28 11:14:51,415 - WingetUpdaterTray - INFO - Queuing settings window creation (attempt 1)
+2025-05-28 11:14:51,416 - IPCClient - INFO - Connected to IPC server

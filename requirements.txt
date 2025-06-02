@@ -1,0 +1,7 @@
+pywin32==306
+pillow==10.1.0
+pystray==0.19.4
+configparser==5.3.0
+schedule==1.2.0
+olefile==0.47
+pyinstaller==5.13.0

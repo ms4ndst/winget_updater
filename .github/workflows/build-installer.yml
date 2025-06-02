@@ -1,0 +1,54 @@
+name: Build Windows Installer
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+        pip install -r requirements.txt
+      shell: pwsh
+      
+    - name: Build Python Application
+      run: |
+        pyinstaller --noconsole --onefile --icon=app.ico winget_updater.py
+      shell: pwsh
+
+    - name: Download Inno Setup
+      run: |
+        $innoSetupUrl = "https://files.jrsoftware.org/is/6/innosetup-6.2.2.exe"
+        Invoke-WebRequest -Uri $innoSetupUrl -OutFile "innosetup.exe"
+      shell: pwsh
+    
+    - name: Install Inno Setup
+      run: |
+        Start-Process -FilePath "innosetup.exe" -ArgumentList "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART" -Wait
+      shell: pwsh
+    
+    - name: Build Installer
+      run: |
+        & 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe' "winget_updater.iss"
+      shell: pwsh
+    
+    - name: Upload Installer Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: WingetUpdater-Installer
+        path: installer_output/WingetUpdater_Setup.exe

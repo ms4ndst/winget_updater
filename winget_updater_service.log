@@ -1,0 +1,268 @@
+2025-05-27 14:58:20,495 - WingetUpdaterService - INFO - Service starting
+2025-05-27 14:58:20,509 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-05-27 14:58:20,509 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-05-27 14:58:20,510 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-27 14:58:20,510 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-27 14:58:20,778 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-27 15:02:10,593 - WingetUpdaterService - INFO - Service stop requested
+2025-05-27 15:02:11,447 - WingetUpdaterService - INFO - Service stopped
+2025-05-27 15:10:07,761 - WingetUpdaterService - INFO - Service starting
+2025-05-27 15:10:07,765 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-05-27 15:10:07,765 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-05-27 15:10:07,765 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-27 15:10:07,766 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-27 15:10:08,062 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-27 16:00:07,838 - SystemTrayIcon - INFO - Scheduled update check at 16:00
+2025-05-27 16:00:07,839 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-27 16:00:07,839 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-27 16:00:08,064 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-27 16:00:38,076 - SystemTrayIcon - INFO - Scheduled update check at 16:00
+2025-05-27 16:00:38,076 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-27 16:00:38,077 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-27 16:00:38,204 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-28 08:00:24,535 - SystemTrayIcon - INFO - Scheduled update check at 08:00
+2025-05-28 08:00:24,541 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-28 08:00:24,541 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 08:00:24,980 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-28 08:00:55,003 - SystemTrayIcon - INFO - Scheduled update check at 08:00
+2025-05-28 08:00:55,004 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-28 08:00:55,004 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 08:00:55,143 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-28 09:28:15,588 - WingetUpdaterService - INFO - Service stop requested
+2025-05-28 09:28:15,597 - WingetUpdaterService - INFO - Service stopped
+2025-05-28 09:28:17,291 - WingetUpdaterService - INFO - Service starting
+2025-05-28 09:28:17,295 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-05-28 09:28:17,296 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-05-28 09:28:17,296 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-28 09:28:17,296 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 09:28:17,772 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 09:28:17,772 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 09:28:17,892 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-28 09:29:26,794 - WingetUpdaterService - INFO - Service initialized in debug mode
+2025-05-28 09:29:26,795 - WingetUpdaterService - INFO - Service starting
+2025-05-28 09:29:26,795 - WingetUpdaterService - INFO - Starting IPC server
+2025-05-28 09:29:26,798 - IPCServer - INFO - IPC server started
+2025-05-28 09:29:26,798 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 09:29:26,798 - WingetUpdaterService - INFO - IPC server started successfully
+2025-05-28 09:29:26,799 - WingetUpdaterService - INFO - Performing initial update check
+2025-05-28 09:29:26,800 - WingetUpdaterService - INFO - Checking for updates
+2025-05-28 09:29:26,801 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 09:29:26,801 - WingetUpdateChecker - DEBUG - Attempting to use JSON output format
+2025-05-28 09:29:26,801 - WingetUpdateChecker - DEBUG - Trying command: winget update --include-unknown --include-pinned --accept-source-agreements --format json
+2025-05-28 09:29:27,154 - WingetUpdateChecker - DEBUG - Command winget update --include-unknown --include-pinned --accept-source-agreements --format json failed with code 2316632066
+2025-05-28 09:29:27,154 - WingetUpdateChecker - DEBUG - Trying command: winget update --format json
+2025-05-28 09:29:27,498 - WingetUpdateChecker - DEBUG - Command winget update --format json failed with code 2316632066
+2025-05-28 09:29:27,499 - WingetUpdateChecker - DEBUG - Trying command: winget upgrade --format json
+2025-05-28 09:29:27,825 - WingetUpdateChecker - DEBUG - Command winget upgrade --format json failed with code 2316632066
+2025-05-28 09:29:27,825 - WingetUpdateChecker - DEBUG - Trying command: winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json
+2025-05-28 09:29:28,150 - WingetUpdateChecker - DEBUG - Command winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json failed with code 2316632066
+2025-05-28 09:29:28,150 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 09:29:28,151 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 09:29:33,268 - WingetUpdateChecker - DEBUG - First few lines of output: ['- ', '   \\ ', '   | ', '   / ', '   - ']
+2025-05-28 09:29:33,268 - WingetUpdateChecker - DEBUG - Found 3 sections in winget output
+2025-05-28 09:29:33,269 - WingetUpdateChecker - DEBUG - Processing section 0 with 13 lines
+2025-05-28 09:29:33,269 - WingetUpdateChecker - DEBUG - Processing section 1 with 11 lines
+2025-05-28 09:29:33,270 - WingetUpdateChecker - DEBUG - Found update: TeamViewer - 15.66.5 -> winget
+2025-05-28 09:29:33,270 - WingetUpdateChecker - DEBUG - Found update: Dia - Unknown -> 0.97.2
+2025-05-28 09:29:33,271 - WingetUpdateChecker - DEBUG - Found update: Camtasia 2025 - 25.0.1.8344 -> 25.1.1.9216
+2025-05-28 09:29:33,271 - WingetUpdateChecker - DEBUG - Found update: 1Password - 8.10.76 -> 8.10.78
+2025-05-28 09:29:33,271 - WingetUpdateChecker - DEBUG - Found update: Postman x86_64 - 11.46.6 -> 11.47.1
+2025-05-28 09:29:33,272 - WingetUpdateChecker - DEBUG - Processing section 2 with 4 lines
+2025-05-28 09:29:33,272 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-05-28 09:29:33,274 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:29:33,274 - WingetUpdaterService - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:29:33,274 - WingetUpdaterService - INFO - Starting scheduler thread
+2025-05-28 09:29:33,275 - WingetUpdaterService - INFO - Starting scheduler thread
+2025-05-28 09:31:10,455 - WingetUpdaterService - INFO - Service initialized in debug mode
+2025-05-28 09:31:10,457 - WingetUpdaterService - INFO - Service starting
+2025-05-28 09:31:10,457 - WingetUpdaterService - INFO - Starting IPC server
+2025-05-28 09:31:10,460 - IPCServer - INFO - IPC server started
+2025-05-28 09:31:10,460 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 09:31:10,461 - WingetUpdaterService - INFO - IPC server started successfully
+2025-05-28 09:31:10,462 - WingetUpdaterService - INFO - Performing initial update check
+2025-05-28 09:31:10,463 - WingetUpdaterService - INFO - Checking for updates
+2025-05-28 09:31:10,463 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 09:31:10,464 - WingetUpdateChecker - DEBUG - Attempting to use JSON output format
+2025-05-28 09:31:10,464 - WingetUpdateChecker - DEBUG - Trying command: winget update --include-unknown --include-pinned --accept-source-agreements --format json
+2025-05-28 09:31:10,901 - WingetUpdateChecker - DEBUG - Command winget update --include-unknown --include-pinned --accept-source-agreements --format json failed with code 2316632066
+2025-05-28 09:31:10,903 - WingetUpdateChecker - DEBUG - Trying command: winget update --format json
+2025-05-28 09:31:11,380 - WingetUpdateChecker - DEBUG - Command winget update --format json failed with code 2316632066
+2025-05-28 09:31:11,381 - WingetUpdateChecker - DEBUG - Trying command: winget upgrade --format json
+2025-05-28 09:31:11,734 - WingetUpdateChecker - DEBUG - Command winget upgrade --format json failed with code 2316632066
+2025-05-28 09:31:11,735 - WingetUpdateChecker - DEBUG - Trying command: winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json
+2025-05-28 09:31:12,079 - WingetUpdateChecker - DEBUG - Command winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json failed with code 2316632066
+2025-05-28 09:31:12,079 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 09:31:12,080 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 09:31:18,688 - WingetUpdateChecker - DEBUG - First few lines of output: ['- ', '   \\ ', '   | ', '   / ', '   - ']
+2025-05-28 09:31:18,688 - WingetUpdateChecker - DEBUG - Found 3 sections in winget output
+2025-05-28 09:31:18,688 - WingetUpdateChecker - DEBUG - Processing section 0 with 17 lines
+2025-05-28 09:31:18,689 - WingetUpdateChecker - DEBUG - Processing section 1 with 11 lines
+2025-05-28 09:31:18,690 - WingetUpdateChecker - DEBUG - Found update: TeamViewer - 15.66.5 -> winget
+2025-05-28 09:31:18,690 - WingetUpdateChecker - DEBUG - Found update: Dia - Unknown -> 0.97.2
+2025-05-28 09:31:18,690 - WingetUpdateChecker - DEBUG - Found update: Camtasia 2025 - 25.0.1.8344 -> 25.1.1.9216
+2025-05-28 09:31:18,691 - WingetUpdateChecker - DEBUG - Found update: 1Password - 8.10.76 -> 8.10.78
+2025-05-28 09:31:18,691 - WingetUpdateChecker - DEBUG - Found update: Postman x86_64 - 11.46.6 -> 11.47.1
+2025-05-28 09:31:18,693 - WingetUpdateChecker - DEBUG - Processing section 2 with 4 lines
+2025-05-28 09:31:18,693 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-05-28 09:31:18,695 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:31:18,695 - WingetUpdaterService - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:31:18,696 - WingetUpdaterService - INFO - Starting scheduler thread
+2025-05-28 09:31:18,697 - WingetUpdaterService - INFO - Starting scheduler thread
+2025-05-28 09:31:57,097 - IPCServer - DEBUG - Client connected
+2025-05-28 09:31:57,101 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 09:32:15,911 - IPCServer - DEBUG - Received command: get_settings
+2025-05-28 09:32:29,394 - IPCServer - DEBUG - Received command: check_updates
+2025-05-28 09:32:29,395 - WingetUpdaterService - INFO - Checking for updates
+2025-05-28 09:32:29,397 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 09:32:29,398 - WingetUpdateChecker - DEBUG - Attempting to use JSON output format
+2025-05-28 09:32:29,399 - WingetUpdateChecker - DEBUG - Trying command: winget update --include-unknown --include-pinned --accept-source-agreements --format json
+2025-05-28 09:32:29,762 - WingetUpdateChecker - DEBUG - Command winget update --include-unknown --include-pinned --accept-source-agreements --format json failed with code 2316632066
+2025-05-28 09:32:29,764 - WingetUpdateChecker - DEBUG - Trying command: winget update --format json
+2025-05-28 09:32:30,104 - WingetUpdateChecker - DEBUG - Command winget update --format json failed with code 2316632066
+2025-05-28 09:32:30,106 - WingetUpdateChecker - DEBUG - Trying command: winget upgrade --format json
+2025-05-28 09:32:30,441 - WingetUpdateChecker - DEBUG - Command winget upgrade --format json failed with code 2316632066
+2025-05-28 09:32:30,442 - WingetUpdateChecker - DEBUG - Trying command: winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json
+2025-05-28 09:32:30,798 - WingetUpdateChecker - DEBUG - Command winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json failed with code 2316632066
+2025-05-28 09:32:30,798 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 09:32:30,800 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 09:32:36,514 - WingetUpdateChecker - DEBUG - First few lines of output: ['- ', '   \\ ', '   | ', '   / ', '   - ']
+2025-05-28 09:32:36,515 - WingetUpdateChecker - DEBUG - Found 3 sections in winget output
+2025-05-28 09:32:36,515 - WingetUpdateChecker - DEBUG - Processing section 0 with 13 lines
+2025-05-28 09:32:36,516 - WingetUpdateChecker - DEBUG - Processing section 1 with 11 lines
+2025-05-28 09:32:36,517 - WingetUpdateChecker - DEBUG - Found update: TeamViewer - 15.66.5 -> winget
+2025-05-28 09:32:36,518 - WingetUpdateChecker - DEBUG - Found update: Dia - Unknown -> 0.97.2
+2025-05-28 09:32:36,519 - WingetUpdateChecker - DEBUG - Found update: Camtasia 2025 - 25.0.1.8344 -> 25.1.1.9216
+2025-05-28 09:32:36,519 - WingetUpdateChecker - DEBUG - Found update: 1Password - 8.10.76 -> 8.10.78
+2025-05-28 09:32:36,520 - WingetUpdateChecker - DEBUG - Found update: Postman x86_64 - 11.46.6 -> 11.47.1
+2025-05-28 09:32:36,520 - WingetUpdateChecker - DEBUG - Processing section 2 with 4 lines
+2025-05-28 09:32:36,521 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-05-28 09:32:36,522 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:32:36,523 - WingetUpdaterService - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:32:36,524 - IPCServer - ERROR - Pipe error: (232, 'WriteFile', 'The pipe is being closed.')
+2025-05-28 09:32:36,525 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 09:52:21,584 - IPCServer - DEBUG - Client connected
+2025-05-28 09:52:21,588 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 09:52:33,920 - IPCServer - DEBUG - Received command: check_updates
+2025-05-28 09:52:33,922 - WingetUpdaterService - INFO - Checking for updates
+2025-05-28 09:52:33,923 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 09:52:33,924 - WingetUpdateChecker - DEBUG - Attempting to use JSON output format
+2025-05-28 09:52:33,924 - WingetUpdateChecker - DEBUG - Trying command: winget update --include-unknown --include-pinned --accept-source-agreements --format json
+2025-05-28 09:52:34,293 - WingetUpdateChecker - DEBUG - Command winget update --include-unknown --include-pinned --accept-source-agreements --format json failed with code 2316632066
+2025-05-28 09:52:34,294 - WingetUpdateChecker - DEBUG - Trying command: winget update --format json
+2025-05-28 09:52:34,627 - WingetUpdateChecker - DEBUG - Command winget update --format json failed with code 2316632066
+2025-05-28 09:52:34,628 - WingetUpdateChecker - DEBUG - Trying command: winget upgrade --format json
+2025-05-28 09:52:34,962 - WingetUpdateChecker - DEBUG - Command winget upgrade --format json failed with code 2316632066
+2025-05-28 09:52:34,963 - WingetUpdateChecker - DEBUG - Trying command: winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json
+2025-05-28 09:52:35,307 - WingetUpdateChecker - DEBUG - Command winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json failed with code 2316632066
+2025-05-28 09:52:35,308 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 09:52:35,310 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 09:52:41,946 - WingetUpdateChecker - DEBUG - First few lines of output: ['- ', '   \\ ', '   | ', '   / ', '   - ']
+2025-05-28 09:52:41,947 - WingetUpdateChecker - DEBUG - Found 3 sections in winget output
+2025-05-28 09:52:41,948 - WingetUpdateChecker - DEBUG - Processing section 0 with 17 lines
+2025-05-28 09:52:41,948 - WingetUpdateChecker - DEBUG - Processing section 1 with 11 lines
+2025-05-28 09:52:41,949 - WingetUpdateChecker - DEBUG - Found update: TeamViewer - 15.66.5 -> winget
+2025-05-28 09:52:41,949 - WingetUpdateChecker - DEBUG - Found update: Dia - Unknown -> 0.97.2
+2025-05-28 09:52:41,949 - WingetUpdateChecker - DEBUG - Found update: Camtasia 2025 - 25.0.1.8344 -> 25.1.1.9216
+2025-05-28 09:52:41,950 - WingetUpdateChecker - DEBUG - Found update: 1Password - 8.10.76 -> 8.10.78
+2025-05-28 09:52:41,950 - WingetUpdateChecker - DEBUG - Found update: Postman x86_64 - 11.46.6 -> 11.47.1
+2025-05-28 09:52:41,950 - WingetUpdateChecker - DEBUG - Processing section 2 with 4 lines
+2025-05-28 09:52:41,951 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-05-28 09:52:41,952 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:52:41,952 - WingetUpdaterService - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:52:49,618 - IPCServer - DEBUG - Received command: get_settings
+2025-05-28 09:53:03,003 - IPCServer - DEBUG - Received command: save_settings
+2025-05-28 09:53:03,010 - WingetUpdaterService - INFO - Settings updated via IPC
+2025-05-28 09:53:03,112 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 09:53:21,585 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 09:53:33,736 - IPCServer - DEBUG - Received command: get_updates
+2025-05-28 09:54:00,360 - IPCServer - DEBUG - Client disconnected
+2025-05-28 09:54:00,362 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 09:57:12,626 - IPCServer - DEBUG - Client connected
+2025-05-28 09:57:12,630 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 09:57:22,291 - IPCServer - DEBUG - Received command: check_updates
+2025-05-28 09:57:22,292 - WingetUpdaterService - INFO - Checking for updates
+2025-05-28 09:57:22,293 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 09:57:22,294 - WingetUpdateChecker - DEBUG - Attempting to use JSON output format
+2025-05-28 09:57:22,295 - WingetUpdateChecker - DEBUG - Trying command: winget update --include-unknown --include-pinned --accept-source-agreements --format json
+2025-05-28 09:57:22,666 - WingetUpdateChecker - DEBUG - Command winget update --include-unknown --include-pinned --accept-source-agreements --format json failed with code 2316632066
+2025-05-28 09:57:22,667 - WingetUpdateChecker - DEBUG - Trying command: winget update --format json
+2025-05-28 09:57:23,016 - WingetUpdateChecker - DEBUG - Command winget update --format json failed with code 2316632066
+2025-05-28 09:57:23,018 - WingetUpdateChecker - DEBUG - Trying command: winget upgrade --format json
+2025-05-28 09:57:23,376 - WingetUpdateChecker - DEBUG - Command winget upgrade --format json failed with code 2316632066
+2025-05-28 09:57:23,377 - WingetUpdateChecker - DEBUG - Trying command: winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json
+2025-05-28 09:57:23,721 - WingetUpdateChecker - DEBUG - Command winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json failed with code 2316632066
+2025-05-28 09:57:23,722 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 09:57:23,723 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 09:57:29,171 - WingetUpdateChecker - DEBUG - First few lines of output: ['- ', '   \\ ', '   | ', '   / ', '   - ']
+2025-05-28 09:57:29,173 - WingetUpdateChecker - DEBUG - Found 3 sections in winget output
+2025-05-28 09:57:29,176 - WingetUpdateChecker - DEBUG - Processing section 0 with 13 lines
+2025-05-28 09:57:29,179 - WingetUpdateChecker - DEBUG - Processing section 1 with 11 lines
+2025-05-28 09:57:29,181 - WingetUpdateChecker - DEBUG - Found update: TeamViewer - 15.66.5 -> winget
+2025-05-28 09:57:29,181 - WingetUpdateChecker - DEBUG - Found update: Dia - Unknown -> 0.97.2
+2025-05-28 09:57:29,182 - WingetUpdateChecker - DEBUG - Found update: Camtasia 2025 - 25.0.1.8344 -> 25.1.1.9216
+2025-05-28 09:57:29,183 - WingetUpdateChecker - DEBUG - Found update: 1Password - 8.10.76 -> 8.10.78
+2025-05-28 09:57:29,183 - WingetUpdateChecker - DEBUG - Found update: Postman x86_64 - 11.46.6 -> 11.47.1
+2025-05-28 09:57:29,184 - WingetUpdateChecker - DEBUG - Processing section 2 with 4 lines
+2025-05-28 09:57:29,185 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-05-28 09:57:29,187 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:57:29,191 - WingetUpdaterService - INFO - Update check completed. Found 5 updates.
+2025-05-28 09:57:52,182 - IPCServer - DEBUG - Received command: get_settings
+2025-05-28 09:58:05,389 - IPCServer - DEBUG - Received command: save_settings
+2025-05-28 09:58:05,398 - WingetUpdaterService - INFO - Settings updated via IPC
+2025-05-28 09:58:05,430 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 09:58:12,625 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 09:58:19,518 - IPCServer - DEBUG - Received command: get_updates
+2025-05-28 09:58:26,231 - IPCServer - DEBUG - Client disconnected
+2025-05-28 09:58:26,232 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 11:13:30,704 - IPCServer - DEBUG - Client connected
+2025-05-28 11:13:30,737 - IPCServer - DEBUG - Client disconnected
+2025-05-28 11:13:30,740 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 11:14:51,416 - IPCServer - DEBUG - Client connected
+2025-05-28 11:14:51,448 - IPCServer - DEBUG - Client disconnected
+2025-05-28 11:14:51,450 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 11:15:21,907 - IPCServer - DEBUG - Client connected
+2025-05-28 11:15:21,912 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 11:15:29,453 - IPCServer - DEBUG - Received command: check_updates
+2025-05-28 11:15:29,455 - WingetUpdaterService - INFO - Checking for updates
+2025-05-28 11:15:29,456 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 11:15:29,458 - WingetUpdateChecker - DEBUG - Attempting to use JSON output format
+2025-05-28 11:15:29,460 - WingetUpdateChecker - DEBUG - Trying command: winget update --include-unknown --include-pinned --accept-source-agreements --format json
+2025-05-28 11:15:29,888 - WingetUpdateChecker - DEBUG - Command winget update --include-unknown --include-pinned --accept-source-agreements --format json failed with code 2316632066
+2025-05-28 11:15:29,890 - WingetUpdateChecker - DEBUG - Trying command: winget update --format json
+2025-05-28 11:15:30,266 - WingetUpdateChecker - DEBUG - Command winget update --format json failed with code 2316632066
+2025-05-28 11:15:30,267 - WingetUpdateChecker - DEBUG - Trying command: winget upgrade --format json
+2025-05-28 11:15:30,625 - WingetUpdateChecker - DEBUG - Command winget upgrade --format json failed with code 2316632066
+2025-05-28 11:15:30,626 - WingetUpdateChecker - DEBUG - Trying command: winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json
+2025-05-28 11:15:31,006 - WingetUpdateChecker - DEBUG - Command winget update --accept-source-agreements --include-unknown --include-pinned --source winget --format json failed with code 2316632066
+2025-05-28 11:15:31,007 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 11:15:31,009 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 11:15:43,660 - WingetUpdateChecker - DEBUG - First few lines of output: ['- ', '   \\ ', '   | ', '   / ', '                                                                                                                        ']
+2025-05-28 11:15:43,662 - WingetUpdateChecker - DEBUG - Found 3 sections in winget output
+2025-05-28 11:15:43,665 - WingetUpdateChecker - DEBUG - Processing section 0 with 38 lines
+2025-05-28 11:15:43,667 - WingetUpdateChecker - DEBUG - Processing section 1 with 6 lines
+2025-05-28 11:15:43,669 - WingetUpdateChecker - DEBUG - Found update: Dia gnome.Dia - 0.97.2 -> winget
+2025-05-28 11:15:43,670 - WingetUpdateChecker - DEBUG - Processing section 2 with 4 lines
+2025-05-28 11:15:43,671 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-05-28 11:15:43,674 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-05-28 11:15:43,674 - WingetUpdaterService - INFO - Update check completed. Found 1 updates.
+2025-05-28 11:15:51,564 - IPCServer - DEBUG - Received command: get_updates
+2025-05-28 11:16:21,905 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 11:16:33,357 - IPCServer - DEBUG - Received command: get_updates
+2025-05-28 11:16:44,863 - IPCServer - DEBUG - Received command: get_settings
+2025-05-28 11:16:52,827 - IPCServer - DEBUG - Received command: save_settings
+2025-05-28 11:16:52,836 - WingetUpdaterService - INFO - Settings updated via IPC
+2025-05-28 11:16:52,901 - IPCServer - DEBUG - Received command: get_status
+2025-05-28 11:17:01,801 - IPCServer - DEBUG - Client disconnected
+2025-05-28 11:17:01,803 - IPCServer - DEBUG - Waiting for client connection...
+2025-05-28 11:34:35,612 - WingetUpdaterService - INFO - Service stop requested
+2025-05-28 11:34:35,639 - WingetUpdaterService - INFO - Service stopped
+2025-05-28 13:43:10,063 - WingetUpdaterService - INFO - Service starting
+2025-05-28 13:43:10,063 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-05-28 13:43:10,070 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-05-28 13:43:10,070 - SystemTrayIcon - INFO - Manually checking for updates
+2025-05-28 13:43:10,070 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-05-28 13:43:10,675 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-05-28 13:43:10,675 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-05-28 13:43:10,788 - WingetUpdateChecker - ERROR - Error checking for updates: [WinError 1920] The file cannot be accessed by the system
+2025-05-28 14:24:50,870 - WingetUpdaterService - INFO - Service stop requested
+2025-05-28 14:24:50,886 - WingetUpdaterService - INFO - Service stopped
