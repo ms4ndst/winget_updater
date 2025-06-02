@@ -13107,3 +13107,11 @@
 2025-06-02 14:02:48,224 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
 2025-06-02 14:02:48,225 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
 2025-06-02 14:02:48,225 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-02 15:00:14,784 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-02 15:00:14,789 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-02 15:00:14,790 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-02 15:00:26,459 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-02 15:00:26,461 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-02 15:00:32,100 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-02 15:00:32,102 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-02 15:00:32,104 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.

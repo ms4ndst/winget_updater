@@ -2,6 +2,9 @@
 
 A Windows application that runs as a service and monitors available package updates using Microsoft's Winget package manager. The application displays a notification icon in the system tray, showing the number of available updates and providing notifications when new updates are available.
 
+## DISCLAIMER
+This application is made using Warp terminal AI agent. None of the code is done by me but is created using prompting as a test to see how well the AI agent could complete the task at hand. There are still some UI bugs like buttons not working as they should and I will try to fix this as son as possible but the application works more or less as it should.  The code is provided as-is and may contain bugs or issues. Use at your own risk.
+
 ## Features
 
 - System tray icon showing the number of available updates
@@ -46,6 +49,26 @@ To run the application without installing it as a service:
 ```
 python main.py --standalone
 ```
+
+#### Using the VB Script Launcher (Recommended for Background Operation)
+
+For a cleaner background experience without console windows, use the provided VB script:
+
+```
+launch_winget_updater.vbs
+```
+
+This script:
+- Runs the Winget Updater in standalone mode
+- Hides the console window for a cleaner experience
+- Automatically sets the correct working directory
+- Ensures proper environment variables are set
+
+To use the VB script:
+1. Double-click `launch_winget_updater.vbs` in File Explorer, or
+2. Run from command line: `cscript launch_winget_updater.vbs` or `wscript launch_winget_updater.vbs`
+
+**Note**: The VB script method is ideal for users who want to run the application in the background without seeing command prompt windows.
 
 #### As a Windows Service
 
