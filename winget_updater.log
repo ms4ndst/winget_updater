@@ -13115,3 +13115,1675 @@
 2025-06-02 15:00:32,100 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
 2025-06-02 15:00:32,102 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
 2025-06-02 15:00:32,104 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-02 15:52:16,971 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-02 15:52:17,017 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-02 15:52:17,018 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-02 15:52:17,019 - WingetUpdateChecker - INFO - Update check already in progress, skipping
+2025-06-02 15:52:26,938 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-02 15:52:26,939 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-02 15:52:32,201 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-02 15:52:32,205 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-02 15:52:32,206 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 07:35:03,331 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-03 07:35:03,336 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 07:35:03,337 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 07:35:13,017 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 07:35:13,018 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 07:35:18,144 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 07:35:18,148 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 07:35:18,148 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 07:35:48,164 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-03 07:35:48,166 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 07:35:48,168 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 07:35:53,889 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 07:35:53,890 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 07:35:58,636 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 07:35:58,637 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 07:35:58,638 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:23:16,083 - SystemTrayIcon - INFO - Opening settings window
+2025-06-03 09:23:16,090 - SystemTrayIcon - WARNING - Error focusing existing settings window: can't invoke "wm" command: application has been destroyed
+2025-06-03 09:23:16,371 - SettingsWindow - DEBUG - Morning entry initial state: normal
+2025-06-03 09:23:16,378 - SettingsWindow - DEBUG - Afternoon entry initial state: normal
+2025-06-03 09:23:16,475 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-03 09:23:16,476 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:16,477 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:16,477 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-03 09:23:16,477 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-03 09:23:16,478 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-03 09:23:16,483 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-03 09:23:16,483 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:16,484 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:16,484 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-03 09:23:16,485 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-03 09:23:16,485 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-03 09:23:16,495 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-03 09:23:16,495 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:16,495 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:16,496 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-03 09:23:16,497 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-03 09:23:16,497 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-03 09:23:16,497 - SettingsWindow - INFO - Initial settings - morning: 07:35, afternoon: 15:00, notify: True, auto: True, include_pinned: False, include_unknown: False
+2025-06-03 09:23:16,498 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:23:16,498 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:16,498 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:17,004 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-03 09:23:17,005 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:17,005 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:17,006 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-03 09:23:17,006 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-03 09:23:17,006 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-03 09:23:17,517 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-03 09:23:17,517 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:17,518 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:17,518 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-03 09:23:17,519 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-03 09:23:17,519 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-03 09:23:18,510 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-03 09:23:18,512 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:18,512 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:18,512 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-03 09:23:18,512 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-03 09:23:18,514 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-03 09:23:19,927 - SettingsWindow - DEBUG - Entry clicked: .!frame.!entry2
+2025-06-03 09:23:19,929 - SettingsWindow - DEBUG - Entry focus in: .!frame.!entry2
+2025-06-03 09:23:21,500 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:23:21,501 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:21,501 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:21,714 - SettingsWindow - DEBUG - Entry clicked: .!frame.!entry
+2025-06-03 09:23:21,716 - SettingsWindow - DEBUG - Afternoon time focus out: 15:00
+2025-06-03 09:23:21,716 - SettingsWindow - INFO - Afternoon time changed to: 15:00
+2025-06-03 09:23:21,717 - SettingsWindow - DEBUG - Entry focus in: .!frame.!entry
+2025-06-03 09:23:26,502 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:23:26,502 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:26,503 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:29,629 - SettingsWindow - DEBUG - Morning time focus out: 07:35
+2025-06-03 09:23:29,629 - SettingsWindow - INFO - Morning time changed to: 07:35
+2025-06-03 09:23:29,694 - SettingsWindow - INFO - Include unknown changed to: True
+2025-06-03 09:23:29,698 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-03 09:23:29,699 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:29,699 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:29,699 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-03 09:23:29,700 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-03 09:23:29,700 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-03 09:23:31,504 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:23:31,505 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:31,505 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:36,508 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:23:36,509 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:36,510 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:38,153 - SettingsWindow - INFO - Saving settings...
+2025-06-03 09:23:38,153 - SettingsWindow - INFO - Values to save - morning: 07:35, afternoon: 15:00, notify: True, auto: True, include_pinned: False, include_unknown: True
+2025-06-03 09:23:38,157 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:23:38,158 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:23:38,159 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:23:38,160 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:23:38,161 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:23:38,162 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:23:38,162 - SettingsWindow - INFO - Settings saved successfully
+2025-06-03 09:23:38,163 - SystemTrayIcon - INFO - Settings were updated
+2025-06-03 09:23:38,164 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 09:23:38,165 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:23:47,979 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:23:47,980 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:23:54,057 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:23:54,059 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:23:54,059 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:23:54,074 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:23:54,074 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:54,076 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:23:59,094 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:23:59,095 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:23:59,096 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:04,101 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:04,102 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:04,103 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:09,110 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:09,111 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:09,112 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:14,123 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:14,124 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:14,124 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:19,131 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:19,132 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:19,133 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:24,137 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:24,138 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:24,139 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:29,142 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:29,144 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:29,146 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:34,155 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:34,156 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:34,157 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:39,163 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:39,164 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:39,164 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:44,177 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:44,178 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:44,179 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:49,196 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:49,197 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:49,197 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:54,201 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:54,202 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:54,203 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:24:59,204 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:24:59,205 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:24:59,205 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:04,221 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:04,222 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:04,223 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:09,230 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:09,231 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:09,232 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:14,237 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:14,238 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:14,239 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:19,244 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:19,245 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:19,246 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:24,254 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:24,255 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:24,256 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:29,281 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:29,282 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:29,283 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:34,284 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:34,285 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:34,286 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:39,296 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:39,297 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:39,298 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:44,310 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:44,311 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:44,311 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:49,313 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:49,314 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:49,315 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:54,364 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:54,364 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:54,364 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:25:59,368 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:25:59,370 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:25:59,371 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:26:04,375 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:26:04,376 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:26:04,377 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:26:09,383 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:26:09,384 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:26:09,385 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:26:14,410 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-03 09:26:14,411 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-03 09:26:14,412 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-03 09:49:34,864 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-03 09:49:34,866 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:49:34,867 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:49:44,038 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:49:44,039 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:49:48,821 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:49:48,823 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:49:48,823 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:49:48,824 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-03 09:49:48,824 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-03 09:49:48,825 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 09:49:48,825 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:49:54,432 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:49:54,434 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:49:59,227 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:49:59,228 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:49:59,229 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:49:59,244 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:50:05,032 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:50:05,032 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:50:09,814 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:50:09,815 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:50:09,815 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:57:42,563 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-03 09:57:42,610 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 09:57:42,611 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:57:42,611 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:57:48,710 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:57:48,711 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:57:50,654 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:57:50,654 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:57:54,647 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:57:54,650 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:57:54,651 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:57:56,306 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:57:56,307 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:57:56,309 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:58:45,785 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:58:51,795 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:58:51,796 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:58:56,637 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:58:56,638 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:58:56,638 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 09:58:56,660 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 09:59:02,617 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 09:59:02,617 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 09:59:07,653 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 09:59:07,654 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 09:59:07,655 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 10:18:22,812 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-03 10:18:22,836 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 10:18:22,836 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 10:18:22,837 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 10:18:33,081 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 10:18:33,082 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 10:18:33,883 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 10:18:33,884 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 10:18:38,418 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 10:18:38,420 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 10:18:38,420 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 10:18:39,097 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-03 10:18:39,098 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 10:18:39,098 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-03 14:30:20,654 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-03 14:30:20,685 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 14:30:20,687 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 14:30:20,687 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 14:30:26,857 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 14:30:26,858 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 14:30:28,669 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 14:30:28,671 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 14:30:32,448 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 14:30:32,452 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 14:30:32,453 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-03 14:30:34,321 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 14:30:34,323 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 14:30:34,324 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-03 14:47:48,005 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-03 14:47:48,039 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 14:47:48,041 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 14:47:53,831 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 14:47:53,832 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 14:47:58,968 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 14:47:58,969 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 14:47:58,970 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-03 14:51:02,289 - SystemTrayIcon - WARNING - Error focusing existing updates window: can't invoke "wm" command: application has been destroyed
+2025-06-03 14:59:18,271 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-03 14:59:18,330 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 14:59:18,331 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 14:59:24,155 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 14:59:24,156 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 14:59:29,262 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 14:59:29,264 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 14:59:29,265 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-03 14:59:58,502 - SystemTrayIcon - INFO - Exiting application
+2025-06-03 14:59:58,535 - WingetUpdaterStandalone - INFO - Application exited
+2025-06-03 15:00:04,218 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-03 15:00:04,220 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 15:00:04,221 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 15:00:10,220 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 15:00:10,220 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 15:00:15,049 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 15:00:15,050 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 15:00:15,050 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-03 15:00:15,051 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-03 15:00:15,051 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-03 15:00:15,051 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-03 15:00:15,051 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 15:00:15,052 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 15:00:15,052 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 15:00:15,052 - WingetUpdateChecker - INFO - Update check already in progress, skipping
+2025-06-03 15:00:20,878 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 15:00:20,879 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 15:00:25,944 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 15:00:25,945 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 15:00:25,946 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-03 15:00:45,054 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-03 15:00:45,055 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 15:00:45,056 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 15:00:50,660 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 15:00:50,661 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 15:00:55,712 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 15:00:55,714 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 15:00:55,714 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-03 15:03:52,990 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-03 15:03:53,020 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-03 15:03:53,021 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-03 15:03:58,928 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-03 15:03:58,929 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-03 15:04:04,742 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-03 15:04:04,744 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-03 15:04:04,744 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-04 07:35:26,991 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-04 07:35:27,006 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 07:35:27,008 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 07:35:33,010 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 07:35:33,012 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 07:35:38,215 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 07:35:38,219 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 07:35:38,219 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 07:36:36,431 - SystemTrayIcon - INFO - Opening settings window
+2025-06-04 07:36:36,671 - SettingsWindow - DEBUG - Morning entry initial state: normal
+2025-06-04 07:36:36,687 - SettingsWindow - DEBUG - Afternoon entry initial state: normal
+2025-06-04 07:36:36,802 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-04 07:36:36,802 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:36,803 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:36,803 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-04 07:36:36,803 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-04 07:36:36,803 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-04 07:36:36,812 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-04 07:36:36,813 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:36,814 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:36,814 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-04 07:36:36,815 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-04 07:36:36,815 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-04 07:36:36,821 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-04 07:36:36,822 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:36,822 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:36,823 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-04 07:36:36,823 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-04 07:36:36,824 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-04 07:36:36,825 - SettingsWindow - INFO - Initial settings - morning: 07:35, afternoon: 15:00, notify: True, auto: True, include_pinned: False, include_unknown: True
+2025-06-04 07:36:36,825 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-04 07:36:36,826 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:36,826 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:37,349 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-04 07:36:37,349 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:37,350 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:37,350 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-04 07:36:37,350 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-04 07:36:37,350 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-04 07:36:37,837 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-04 07:36:37,837 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:37,837 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:37,838 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-04 07:36:37,838 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-04 07:36:37,838 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-04 07:36:38,834 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-04 07:36:38,835 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:38,835 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:38,836 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-04 07:36:38,836 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-04 07:36:38,836 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-04 07:36:41,830 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-04 07:36:41,831 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:41,831 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:36:46,841 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-04 07:36:46,842 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-04 07:36:46,842 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-04 07:44:04,940 - SystemTrayIcon - INFO - Exiting application
+2025-06-04 07:44:04,989 - WingetUpdaterStandalone - INFO - Application exited
+2025-06-04 07:44:30,675 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-04 07:44:30,677 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 07:44:30,678 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 07:44:37,356 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 07:44:37,357 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 07:45:01,243 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 07:45:01,245 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 07:45:01,246 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 07:45:01,247 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-04 07:45:01,247 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-04 07:45:01,248 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 07:45:01,248 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 07:45:07,034 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 07:45:07,034 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 07:45:35,244 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 07:45:35,245 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 07:45:35,246 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 07:48:33,111 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-04 07:48:33,144 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 07:48:33,145 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 07:48:39,544 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 07:48:39,545 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 07:49:05,061 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 07:49:05,063 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 07:49:05,065 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 07:54:55,875 - SystemTrayIcon - INFO - Exiting application
+2025-06-04 07:54:55,910 - WingetUpdaterStandalone - INFO - Application exited
+2025-06-04 08:03:49,420 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-04 08:03:49,422 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 08:03:49,423 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 08:03:58,938 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 08:03:58,939 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 08:04:22,529 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 08:04:22,531 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 08:04:22,531 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 08:04:22,532 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-04 08:04:22,532 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-04 08:04:22,535 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 08:04:22,535 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 08:04:28,351 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 08:04:28,352 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 08:04:51,964 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 08:04:51,966 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 08:04:51,967 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 08:06:07,294 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-04 08:06:07,317 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 08:06:07,317 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 08:06:14,216 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 08:06:14,216 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 08:06:37,617 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 08:06:37,619 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 08:06:37,620 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 09:33:56,535 - SystemTrayIcon - INFO - Exiting application
+2025-06-04 09:33:56,593 - WingetUpdaterStandalone - INFO - Application exited
+2025-06-04 09:38:50,840 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-04 09:38:50,843 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:38:50,846 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 09:39:11,963 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 09:39:11,965 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 09:39:52,724 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 09:39:52,729 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:39:52,734 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 09:39:52,736 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-04 09:39:52,736 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-04 09:39:52,738 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 09:39:52,743 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 09:40:01,257 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 09:40:01,258 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 09:40:16,208 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-04 09:40:16,210 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:40:16,212 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 09:40:27,569 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 09:40:27,570 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 09:40:42,762 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 09:40:42,764 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:40:42,765 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 09:40:53,846 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-04 09:40:53,902 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 09:40:53,904 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 09:41:03,067 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 09:41:03,068 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 09:41:07,725 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 09:41:07,728 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:41:07,728 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 09:41:07,730 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-04 09:41:07,730 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-04 09:41:07,731 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 09:41:07,732 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 09:41:17,628 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 09:41:17,628 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 09:41:56,617 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 09:41:56,619 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:41:56,619 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 09:42:10,540 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 09:42:10,541 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:42:10,542 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 09:56:50,520 - SystemTrayIcon - INFO - Exiting application
+2025-06-04 09:56:50,552 - WingetUpdaterStandalone - INFO - Application exited
+2025-06-04 09:56:52,314 - SystemTrayIcon - INFO - Exiting application
+2025-06-04 09:56:52,347 - WingetUpdaterStandalone - INFO - Application exited
+2025-06-04 09:57:02,521 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-04 09:57:02,523 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:57:02,525 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 09:57:10,155 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 09:57:10,155 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 09:57:36,337 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 09:57:36,337 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:57:36,337 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 09:57:36,337 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-04 09:57:36,337 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-04 09:57:36,353 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 09:57:36,353 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 09:57:42,416 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 09:57:42,420 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 09:58:07,511 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 09:58:07,515 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 09:58:07,516 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-04 15:00:06,753 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-04 15:00:06,762 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-04 15:00:06,764 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-04 15:00:21,488 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-04 15:00:21,489 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-04 15:00:46,225 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-04 15:00:46,230 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-04 15:00:46,232 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-05 07:35:15,839 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-05 07:35:15,842 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-05 07:35:15,843 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-05 07:35:21,870 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-05 07:35:21,871 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-05 07:35:44,732 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-05 07:35:44,737 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-05 07:35:44,738 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-05 09:10:22,763 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-05 09:10:22,794 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-05 09:10:22,795 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-05 09:10:35,594 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-05 09:10:35,594 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-05 09:11:01,783 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-05 09:11:01,789 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-05 09:11:01,791 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-05 11:25:26,335 - SystemTrayIcon - INFO - Opening settings window
+2025-06-05 11:25:26,650 - SettingsWindow - DEBUG - Morning entry initial state: normal
+2025-06-05 11:25:26,663 - SettingsWindow - DEBUG - Afternoon entry initial state: normal
+2025-06-05 11:25:26,776 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-05 11:25:26,778 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:26,780 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 11:25:26,781 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-05 11:25:26,781 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-05 11:25:26,782 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-05 11:25:26,789 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-05 11:25:26,790 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:26,790 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 11:25:26,791 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-05 11:25:26,792 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-05 11:25:26,793 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-05 11:25:26,799 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-05 11:25:26,799 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:26,800 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 11:25:26,801 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-05 11:25:26,802 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-05 11:25:26,803 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-05 11:25:26,804 - SettingsWindow - INFO - Initial settings - morning: 07:35, afternoon: 15:00, notify: True, auto: True, include_pinned: False, include_unknown: False
+2025-06-05 11:25:26,805 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-05 11:25:26,805 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:26,806 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 11:25:27,319 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-05 11:25:27,320 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:27,321 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 11:25:27,321 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-05 11:25:27,322 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-05 11:25:27,322 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-05 11:25:27,816 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-05 11:25:27,816 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:27,817 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 11:25:27,818 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-05 11:25:27,818 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-05 11:25:27,818 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-05 11:25:28,818 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-06-05 11:25:28,819 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:28,819 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 11:25:28,820 - SettingsWindow - DEBUG - Auto check state: False
+2025-06-05 11:25:28,820 - SettingsWindow - DEBUG - Include pinned state: False
+2025-06-05 11:25:28,821 - SettingsWindow - DEBUG - Include unknown state: False
+2025-06-05 11:25:31,811 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-06-05 11:25:31,812 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-06-05 11:25:31,812 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-06-05 15:00:15,307 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-05 15:00:15,323 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-05 15:00:15,324 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-05 15:00:25,991 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-05 15:00:25,992 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-05 15:00:50,422 - WingetUpdateChecker - INFO - Parsed winget output, found 7 updates
+2025-06-05 15:00:50,425 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-05 15:00:50,427 - WingetUpdateChecker - INFO - Update check completed. Found 7 updates.
+2025-06-05 15:01:24,311 - SystemTrayIcon - INFO - Installation of all updates requested via menu
+2025-06-06 07:35:21,908 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-06 07:35:21,912 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-06 07:35:21,912 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-06 07:35:35,444 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-06 07:35:35,444 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-06 07:35:59,680 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-06 07:35:59,684 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-06 07:35:59,684 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-09 07:52:51,787 - SystemTrayIcon - INFO - Exiting application
+2025-06-09 07:52:51,838 - WingetUpdateChecker - INFO - Starting installation of all updates
+2025-06-09 07:52:51,838 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-09 07:52:51,850 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-10 07:10:01,820 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-10 07:10:01,824 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-10 07:10:01,827 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-10 07:10:17,347 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-10 07:10:17,349 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-10 07:11:28,340 - WingetUpdateChecker - INFO - Parsed winget output, found 8 updates
+2025-06-10 07:11:28,348 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-10 07:11:28,349 - WingetUpdateChecker - INFO - Update check completed. Found 8 updates.
+2025-06-10 07:11:28,351 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-10 07:11:28,352 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-10 07:11:28,353 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-10 07:11:28,354 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-10 07:11:42,288 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-10 07:11:42,288 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-10 07:12:52,180 - WingetUpdateChecker - INFO - Parsed winget output, found 8 updates
+2025-06-10 07:12:52,182 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-10 07:12:52,184 - WingetUpdateChecker - INFO - Update check completed. Found 8 updates.
+2025-06-10 07:35:28,407 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-10 07:35:28,408 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-10 07:35:28,409 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-10 07:35:52,382 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-10 07:35:52,383 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-10 07:36:52,569 - WingetUpdateChecker - INFO - Parsed winget output, found 8 updates
+2025-06-10 07:36:52,579 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-10 07:36:52,580 - WingetUpdateChecker - INFO - Update check completed. Found 8 updates.
+2025-06-11 11:21:45,333 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-11 11:21:45,335 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-11 11:21:45,337 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-11 11:21:57,288 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-11 11:21:57,288 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-11 11:22:36,943 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-11 11:22:36,943 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-11 11:22:36,959 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-11 11:22:36,961 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-11 11:22:36,961 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-11 11:22:36,961 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-11 11:22:36,961 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-11 11:22:47,078 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-11 11:22:47,078 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-11 11:23:29,029 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-11 11:23:29,032 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-11 11:23:29,033 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-11 11:23:29,054 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-11 11:23:38,497 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-11 11:23:38,499 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-11 11:24:23,256 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-11 11:24:23,266 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-11 11:24:23,268 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-11 15:00:07,316 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-11 15:00:07,332 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-11 15:00:07,334 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-11 15:00:27,433 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-11 15:00:27,436 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-11 15:01:07,469 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-11 15:01:07,478 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-11 15:01:07,479 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-12 08:30:16,285 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-12 08:30:16,291 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 08:30:16,294 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-12 08:30:25,420 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-12 08:30:25,420 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-12 08:31:09,900 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-12 08:31:09,902 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 08:31:09,902 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-12 08:31:09,902 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-12 08:31:09,902 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-12 08:31:09,912 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-12 08:31:09,912 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-12 08:31:18,952 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-12 08:31:18,968 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-12 08:31:57,022 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-12 08:31:57,029 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 08:31:57,031 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-12 08:31:57,044 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-12 08:32:06,033 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-12 08:32:06,033 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-12 08:32:44,804 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-12 08:32:44,804 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 08:32:44,804 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-12 14:45:29,062 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-12 14:45:29,066 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 14:45:29,068 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-12 14:45:41,060 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-12 14:45:41,062 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-12 14:46:29,153 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-12 14:46:29,166 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 14:46:29,167 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-12 14:46:29,171 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-12 14:46:29,171 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-12 14:46:29,172 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-12 14:46:29,173 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-12 14:46:42,747 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-12 14:46:42,748 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-12 14:47:37,936 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-12 14:47:37,938 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 14:47:37,939 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-12 14:47:37,957 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-12 14:47:49,170 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-12 14:47:49,171 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-12 14:48:30,984 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-12 14:48:30,986 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 14:48:30,986 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-12 15:00:29,190 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-12 15:00:29,191 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-12 15:00:29,191 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-12 15:00:49,219 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-12 15:00:49,219 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-12 15:01:30,560 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-12 15:01:30,564 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-12 15:01:30,565 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-13 07:35:00,696 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-13 07:35:00,703 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-13 07:35:00,706 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-13 07:35:18,290 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-13 07:35:18,292 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-13 07:35:58,150 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-13 07:35:58,160 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-13 07:35:58,161 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-13 15:00:29,016 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-13 15:00:29,026 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-13 15:00:29,028 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-13 15:00:46,944 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-13 15:00:46,946 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-13 15:01:26,881 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-06-13 15:01:26,891 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-13 15:01:26,892 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-06-16 09:00:05,607 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-16 09:00:05,609 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-16 09:00:05,609 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-16 09:00:15,050 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-16 09:00:15,050 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-16 09:01:00,817 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-06-16 09:01:00,817 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-16 09:01:00,817 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-06-16 09:01:00,817 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-16 09:01:00,817 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-16 09:01:00,829 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-16 09:01:00,829 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-16 09:01:10,546 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-16 09:01:10,546 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-16 09:01:54,636 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-06-16 09:01:54,636 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-16 09:01:54,636 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-06-16 11:26:34,307 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-16 11:26:34,375 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-16 11:26:34,376 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-16 11:26:52,792 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-16 11:26:52,795 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-16 11:27:38,180 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-06-16 11:27:38,188 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-16 11:27:38,190 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-06-16 15:00:00,298 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-16 15:00:00,306 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-16 15:00:00,309 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-16 15:00:18,522 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-16 15:00:18,524 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-16 15:01:06,918 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-06-16 15:01:06,924 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-16 15:01:06,926 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-06-16 15:42:39,370 - SystemTrayIcon - INFO - Update check requested via menu
+2025-06-16 15:42:39,422 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-16 15:42:39,424 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-16 15:42:50,267 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-16 15:42:50,270 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-16 15:43:40,236 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-06-16 15:43:40,241 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-16 15:43:40,243 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-06-17 07:35:07,646 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-17 07:35:07,674 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-17 07:35:07,677 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-17 07:35:41,589 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-17 07:35:41,591 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-17 07:37:25,284 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-06-17 07:37:25,299 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-17 07:37:25,301 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-06-17 09:52:30,589 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-17 09:52:30,593 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-17 09:52:30,599 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-17 09:52:51,638 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-17 09:52:51,640 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-17 09:54:14,184 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-06-17 09:54:14,201 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-17 09:54:14,203 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-06-17 09:54:14,210 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-17 09:54:14,212 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-17 09:54:14,217 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-17 09:54:14,219 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-17 09:54:34,376 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-17 09:54:34,380 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-17 09:55:54,501 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-06-17 09:55:54,506 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-17 09:55:54,506 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-06-17 15:00:14,846 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-17 15:00:14,860 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-17 15:00:14,862 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-17 15:00:35,151 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-17 15:00:35,153 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-17 15:01:23,447 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-06-17 15:01:23,464 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-17 15:01:23,465 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-06-18 07:35:25,653 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-18 07:35:25,653 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-18 07:35:25,661 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-18 07:35:46,985 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-18 07:35:46,985 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-18 07:36:31,626 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-18 07:36:31,635 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-18 07:36:31,635 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-18 15:00:02,508 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-06-18 15:00:02,518 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-18 15:00:02,521 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-18 15:00:22,089 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-18 15:00:22,090 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-18 15:01:10,236 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-06-18 15:01:10,246 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-18 15:01:10,247 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-06-19 07:27:26,493 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-19 07:27:26,493 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-19 07:27:26,509 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-19 07:27:37,700 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-19 07:27:37,700 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-19 07:28:20,693 - WingetUpdateChecker - INFO - Parsed winget output, found 9 updates
+2025-06-19 07:28:20,699 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-19 07:28:20,701 - WingetUpdateChecker - INFO - Update check completed. Found 9 updates.
+2025-06-19 07:28:20,704 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-19 07:28:20,704 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-19 07:28:20,705 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-19 07:28:20,707 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-19 07:28:30,113 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-19 07:28:30,113 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-19 07:29:17,944 - WingetUpdateChecker - INFO - Parsed winget output, found 9 updates
+2025-06-19 07:29:17,946 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-19 07:29:17,946 - WingetUpdateChecker - INFO - Update check completed. Found 9 updates.
+2025-06-19 07:35:20,714 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-06-19 07:35:20,714 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-19 07:35:20,714 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-19 07:35:29,949 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-19 07:35:29,949 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-19 07:36:12,550 - WingetUpdateChecker - INFO - Parsed winget output, found 9 updates
+2025-06-19 07:36:12,550 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-19 07:36:12,550 - WingetUpdateChecker - INFO - Update check completed. Found 9 updates.
+2025-06-19 15:29:23,317 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-06-19 15:29:23,321 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-19 15:29:23,325 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-19 15:29:28,691 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-19 15:29:28,692 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-19 15:29:44,257 - WingetUpdateChecker - INFO - Parsed winget output, found 10 updates
+2025-06-19 15:29:44,257 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-19 15:29:44,272 - WingetUpdateChecker - INFO - Update check completed. Found 10 updates.
+2025-06-19 15:29:44,275 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-06-19 15:29:44,275 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-06-19 15:29:44,275 - SystemTrayIcon - INFO - Manually checking for updates
+2025-06-19 15:29:44,275 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-06-19 15:29:48,458 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-06-19 15:29:48,458 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-06-19 15:30:15,486 - WingetUpdateChecker - INFO - Parsed winget output, found 10 updates
+2025-06-19 15:30:15,489 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-06-19 15:30:15,490 - WingetUpdateChecker - INFO - Update check completed. Found 10 updates.
+2025-07-21 07:34:27,166 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-21 07:34:27,170 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 07:34:27,176 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 07:34:35,600 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 07:34:35,603 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 07:34:58,784 - WingetUpdateChecker - INFO - Parsed winget output, found 25 updates
+2025-07-21 07:34:58,798 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 07:34:58,798 - WingetUpdateChecker - INFO - Update check completed. Found 25 updates.
+2025-07-21 07:34:58,798 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-21 07:34:58,798 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-21 07:34:58,798 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-21 07:34:58,798 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 07:35:03,229 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 07:35:03,231 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 07:35:24,543 - WingetUpdateChecker - INFO - Parsed winget output, found 25 updates
+2025-07-21 07:35:24,548 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 07:35:24,550 - WingetUpdateChecker - INFO - Update check completed. Found 25 updates.
+2025-07-21 07:35:28,810 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-07-21 07:35:28,811 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-21 07:35:28,813 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 07:35:35,616 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 07:35:35,616 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 07:35:52,734 - WingetUpdateChecker - INFO - Parsed winget output, found 25 updates
+2025-07-21 07:35:52,750 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 07:35:52,750 - WingetUpdateChecker - INFO - Update check completed. Found 25 updates.
+2025-07-21 12:59:59,688 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-21 12:59:59,688 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 12:59:59,688 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 13:00:05,443 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 13:00:05,443 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 13:00:22,594 - WingetUpdateChecker - INFO - Parsed winget output, found 15 updates
+2025-07-21 13:00:22,602 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 13:00:22,604 - WingetUpdateChecker - INFO - Update check completed. Found 15 updates.
+2025-07-21 13:00:22,610 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-21 13:00:22,612 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-21 13:00:22,614 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-21 13:00:22,616 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 13:00:31,060 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 13:00:31,062 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 13:01:01,720 - WingetUpdateChecker - INFO - Parsed winget output, found 15 updates
+2025-07-21 13:01:01,722 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 13:01:01,722 - WingetUpdateChecker - INFO - Update check completed. Found 15 updates.
+2025-07-21 14:10:51,342 - SystemTrayIcon - INFO - Update check requested via menu
+2025-07-21 14:10:51,397 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-21 14:10:51,400 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 14:10:56,223 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 14:10:56,225 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 14:11:13,904 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-21 14:11:13,920 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 14:11:13,920 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-21 15:00:22,818 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-07-21 15:00:22,827 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-21 15:00:22,829 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 15:00:32,775 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 15:00:32,777 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 15:00:49,049 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-21 15:00:49,054 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 15:00:49,057 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-21 15:35:32,610 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-21 15:35:32,610 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 15:35:32,614 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 15:35:36,889 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 15:35:36,889 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 15:35:52,437 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-21 15:35:52,444 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 15:35:52,444 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-21 15:35:52,446 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-21 15:35:52,447 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-21 15:35:52,447 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-21 15:35:52,447 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 15:35:56,676 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 15:35:56,678 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 15:36:12,784 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-21 15:36:12,787 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 15:36:12,787 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-21 15:36:12,807 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-21 15:36:17,103 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-21 15:36:17,103 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-21 15:36:33,771 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-21 15:36:33,772 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-21 15:36:33,772 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-22 13:18:35,151 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-22 13:18:35,154 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-22 13:18:35,154 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-22 13:18:39,673 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-22 13:18:39,673 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-22 13:18:55,444 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-22 13:18:55,453 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-22 13:18:55,453 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-22 13:18:55,453 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-22 13:18:55,458 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-22 13:18:55,459 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-22 13:18:55,459 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-22 13:18:59,661 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-22 13:18:59,661 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-22 13:19:15,414 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-22 13:19:15,414 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-22 13:19:15,414 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-22 14:07:26,312 - SystemTrayIcon - INFO - Update check requested via menu
+2025-07-22 14:07:26,365 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-22 14:07:26,367 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-22 14:07:33,128 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-22 14:07:33,128 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-22 14:07:48,326 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-22 14:07:48,326 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-22 14:07:48,326 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-22 15:00:25,644 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-07-22 15:00:25,654 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-22 15:00:25,659 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-22 15:00:40,265 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-22 15:00:40,267 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-22 15:00:56,876 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-22 15:00:56,880 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-22 15:00:56,882 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-23 15:00:03,335 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-07-23 15:00:03,347 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-23 15:00:03,351 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-23 15:00:14,595 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-23 15:00:14,597 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-23 15:00:31,418 - WingetUpdateChecker - INFO - Parsed winget output, found 3 updates
+2025-07-23 15:00:31,428 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-23 15:00:31,431 - WingetUpdateChecker - INFO - Update check completed. Found 3 updates.
+2025-07-24 07:44:29,030 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-24 07:44:29,030 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-24 07:44:29,030 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-24 07:44:33,264 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-24 07:44:33,264 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-24 07:44:49,108 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-07-24 07:44:49,114 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-24 07:44:49,114 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-07-24 07:44:49,114 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-24 07:44:49,114 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-24 07:44:49,114 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-24 07:44:49,114 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-24 07:44:53,367 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-24 07:44:53,367 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-24 07:45:09,007 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-07-24 07:45:09,011 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-24 07:45:09,011 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-07-24 15:00:19,954 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-07-24 15:00:19,963 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-24 15:00:19,965 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-24 15:00:30,885 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-24 15:00:30,886 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-24 15:00:48,112 - WingetUpdateChecker - INFO - Parsed winget output, found 5 updates
+2025-07-24 15:00:48,116 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-24 15:00:48,118 - WingetUpdateChecker - INFO - Update check completed. Found 5 updates.
+2025-07-24 16:28:03,096 - SystemTrayIcon - INFO - Opening settings window
+2025-07-24 16:28:03,283 - SettingsWindow - DEBUG - Morning entry initial state: normal
+2025-07-24 16:28:03,292 - SettingsWindow - DEBUG - Afternoon entry initial state: normal
+2025-07-24 16:28:03,355 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-24 16:28:03,355 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:03,355 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:03,355 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-24 16:28:03,355 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-24 16:28:03,355 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-24 16:28:03,362 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-24 16:28:03,366 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:03,366 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:03,366 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-24 16:28:03,366 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-24 16:28:03,366 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-24 16:28:03,371 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-24 16:28:03,371 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:03,371 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:03,371 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-24 16:28:03,371 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-24 16:28:03,371 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-24 16:28:03,376 - SettingsWindow - INFO - Initial settings - morning: 07:35, afternoon: 15:00, notify: True, auto: True, include_pinned: False, include_unknown: False
+2025-07-24 16:28:03,376 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:03,376 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:03,376 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:03,884 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-24 16:28:03,884 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:03,884 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:03,884 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-24 16:28:03,888 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-24 16:28:03,888 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-24 16:28:04,388 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-24 16:28:04,388 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:04,388 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:04,388 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-24 16:28:04,388 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-24 16:28:04,388 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-24 16:28:05,390 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-24 16:28:05,392 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:05,392 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:05,393 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-24 16:28:05,393 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-24 16:28:05,394 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-24 16:28:08,387 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:08,388 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:08,388 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:13,400 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:13,400 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:13,401 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:18,410 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:18,410 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:18,410 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:23,424 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:23,426 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:23,427 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:28,442 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:28,443 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:28,444 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:33,445 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:33,445 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:33,446 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:38,455 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:38,456 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:38,457 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:43,463 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:43,464 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:43,464 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:48,470 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:48,470 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:48,471 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:53,475 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:53,477 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:53,478 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:28:58,480 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:28:58,481 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:28:58,481 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:03,487 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:03,488 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:03,489 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:08,496 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:08,496 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:08,497 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:13,500 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:13,501 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:13,501 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:18,506 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:18,506 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:18,507 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:23,520 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:23,521 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:23,522 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:28,530 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:28,532 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:28,533 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:33,546 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:33,546 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:33,546 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:38,554 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:38,555 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:38,555 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:43,563 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:43,564 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:43,564 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:48,575 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:48,577 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:48,578 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:53,588 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:53,589 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:53,591 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:29:58,602 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:29:58,603 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:29:58,604 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:03,606 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:03,607 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:03,608 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:08,610 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:08,611 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:08,611 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:13,618 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:13,618 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:13,619 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:18,627 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:18,628 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:18,628 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:23,634 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:23,635 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:23,635 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:28,644 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:28,644 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:28,645 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:33,656 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:33,656 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:33,656 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:38,669 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:38,670 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:38,671 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:43,680 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:43,683 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:43,684 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:48,699 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:48,699 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:48,699 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:53,702 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:53,704 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:53,705 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:30:58,711 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:30:58,713 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:30:58,713 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:03,725 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:03,728 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:03,730 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:08,734 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:08,735 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:08,735 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:13,748 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:13,748 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:13,750 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:18,754 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:18,756 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:18,757 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:23,773 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:23,773 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:23,774 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:28,776 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:28,777 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:28,777 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:33,785 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:33,785 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:33,786 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:38,799 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:38,800 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:38,800 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:43,806 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:43,807 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:43,809 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:48,812 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:48,814 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:48,814 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:53,815 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:53,816 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:53,816 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:31:58,827 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:31:58,828 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:31:58,828 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:03,832 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:03,833 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:03,834 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:08,840 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:08,843 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:08,844 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:13,858 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:13,858 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:13,859 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:18,860 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:18,860 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:18,861 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:23,866 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:23,868 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:23,869 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:28,882 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:28,883 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:28,883 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:33,890 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:33,890 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:33,891 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:38,892 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:38,892 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:38,893 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:43,897 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:43,898 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:43,899 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:48,903 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:48,904 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:48,905 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:53,914 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:53,915 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:53,916 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:32:58,922 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:32:58,923 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:32:58,924 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:03,940 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:03,941 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:03,942 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:08,943 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:08,945 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:08,947 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:13,958 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:13,959 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:13,960 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:18,967 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:18,968 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:18,968 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:23,983 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:23,985 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:23,986 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:28,991 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:28,992 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:28,992 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:33,995 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:33,996 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:33,997 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:39,007 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:39,008 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:39,008 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:44,013 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:44,013 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:44,014 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:49,015 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:49,015 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:49,016 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:54,031 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:54,032 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:54,033 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:33:59,039 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:33:59,040 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:33:59,040 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:34:04,041 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:34:04,042 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:34:04,042 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:34:09,053 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:34:09,055 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:34:09,056 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:34:14,059 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:34:14,059 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:34:14,060 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:34:19,066 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:34:19,067 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:34:19,068 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:34:24,077 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-24 16:34:24,078 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-24 16:34:24,079 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-24 16:34:29,327 - SystemTrayIcon - INFO - Exiting application
+2025-07-24 16:34:29,420 - WingetUpdaterStandalone - INFO - Application exited
+2025-07-25 09:08:26,697 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-25 09:08:26,700 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:08:26,702 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:08:35,828 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:08:35,830 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:08:53,640 - WingetUpdateChecker - INFO - Parsed winget output, found 3 updates
+2025-07-25 09:08:53,649 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:08:53,650 - WingetUpdateChecker - INFO - Update check completed. Found 3 updates.
+2025-07-25 09:08:53,654 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-25 09:08:53,654 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-25 09:08:53,657 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-25 09:08:53,658 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:08:58,091 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:08:58,093 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:09:14,591 - WingetUpdateChecker - INFO - Parsed winget output, found 3 updates
+2025-07-25 09:09:14,595 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:09:14,596 - WingetUpdateChecker - INFO - Update check completed. Found 3 updates.
+2025-07-25 09:09:35,071 - SystemTrayIcon - INFO - Installation of all updates requested via menu
+2025-07-25 09:10:26,617 - SystemTrayIcon - INFO - Opening settings window
+2025-07-25 09:10:26,851 - SettingsWindow - DEBUG - Morning entry initial state: normal
+2025-07-25 09:10:26,897 - SettingsWindow - DEBUG - Afternoon entry initial state: normal
+2025-07-25 09:10:26,998 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-25 09:10:26,999 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:26,999 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:27,000 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-25 09:10:27,001 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-25 09:10:27,001 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-25 09:10:27,009 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-25 09:10:27,009 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:27,010 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:27,011 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-25 09:10:27,011 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-25 09:10:27,012 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-25 09:10:27,018 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-25 09:10:27,018 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:27,019 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:27,020 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-25 09:10:27,020 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-25 09:10:27,020 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-25 09:10:27,021 - SettingsWindow - INFO - Initial settings - morning: 07:35, afternoon: 15:00, notify: True, auto: True, include_pinned: False, include_unknown: False
+2025-07-25 09:10:27,022 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-25 09:10:27,022 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:27,022 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:27,527 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-25 09:10:27,528 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:27,528 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:27,529 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-25 09:10:27,529 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-25 09:10:27,529 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-25 09:10:28,034 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-25 09:10:28,034 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:28,034 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:28,035 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-25 09:10:28,035 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-25 09:10:28,035 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-25 09:10:28,914 - SettingsWindow - DEBUG - Entry clicked: .!frame.!entry
+2025-07-25 09:10:28,915 - SettingsWindow - DEBUG - Entry focus in: .!frame.!entry
+2025-07-25 09:10:29,053 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-25 09:10:29,054 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:29,054 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:29,055 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-25 09:10:29,057 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-25 09:10:29,057 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-25 09:10:32,023 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-25 09:10:32,024 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-25 09:10:32,024 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-25 09:10:34,069 - SettingsWindow - DEBUG - Morning time focus out: 07:35
+2025-07-25 09:10:34,070 - SettingsWindow - INFO - Morning time changed to: 07:35
+2025-07-25 09:10:39,892 - SystemTrayIcon - INFO - Installation of all updates requested via menu
+2025-07-25 09:10:57,867 - SystemTrayIcon - INFO - Exiting application
+2025-07-25 09:10:57,916 - WingetUpdateChecker - INFO - Starting installation of all updates
+2025-07-25 09:10:57,917 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:10:57,922 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:10:59,438 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:10:59,439 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:11:02,354 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:11:02,354 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:11:15,628 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-07-25 09:11:15,629 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:11:15,630 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-07-25 09:11:18,173 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-07-25 09:11:18,175 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:11:18,176 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-07-25 09:11:18,177 - WingetUpdateChecker - INFO - Installing 6 updates
+2025-07-25 09:20:21,403 - SystemTrayIcon - INFO - Update check requested via menu
+2025-07-25 09:20:21,433 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-25 09:20:21,434 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:20:25,688 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:20:25,689 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:20:43,679 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-25 09:20:43,681 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:20:43,682 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-25 09:21:22,123 - WingetUpdateChecker - INFO - Installation completed successfully
+2025-07-25 09:21:22,266 - WingetUpdateChecker - INFO - Verifying updates were installed...
+2025-07-25 09:21:22,267 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:21:26,703 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:21:26,703 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:21:31,136 - SystemTrayIcon - INFO - Update check requested via menu
+2025-07-25 09:21:31,179 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-25 09:21:31,180 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:21:31,180 - WingetUpdateChecker - INFO - Update check already in progress, skipping
+2025-07-25 09:21:35,436 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:21:35,437 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:21:42,291 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-25 09:21:42,292 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:21:42,293 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-25 09:21:42,293 - WingetUpdateChecker - INFO - All updates were successfully installed and verified
+2025-07-25 09:21:42,322 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-25 09:21:42,323 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 09:21:46,596 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 09:21:46,597 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 09:21:51,046 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-25 09:21:51,047 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:21:51,047 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-25 09:22:02,648 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-25 09:22:02,649 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 09:22:02,649 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-25 11:31:27,372 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-25 11:31:27,372 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 11:31:27,378 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 11:31:31,729 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 11:31:31,729 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 11:31:47,886 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-25 11:31:47,890 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 11:31:47,890 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-25 11:31:47,896 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-25 11:31:47,896 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-25 11:31:47,896 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-25 11:31:47,896 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 11:31:52,106 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 11:31:52,108 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 11:32:08,102 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-25 11:32:08,102 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 11:32:08,102 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-25 11:32:08,123 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 11:32:12,416 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 11:32:12,416 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 11:32:28,375 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-25 11:32:28,375 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 11:32:28,375 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-25 15:00:18,250 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-07-25 15:00:18,259 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-25 15:00:18,263 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-25 15:00:22,595 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-25 15:00:22,606 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-25 15:00:39,645 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-25 15:00:39,654 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-25 15:00:39,654 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-28 07:31:31,076 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-28 07:31:31,076 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-28 07:31:31,076 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-28 07:31:36,217 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-28 07:31:36,217 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-28 07:31:55,089 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-07-28 07:31:55,096 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-28 07:31:55,096 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-07-28 07:31:55,096 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-28 07:31:55,096 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-28 07:31:55,096 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-28 07:31:55,106 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-28 07:31:59,801 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-28 07:31:59,801 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-28 07:32:19,476 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-07-28 07:32:19,476 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-28 07:32:19,482 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-07-28 07:35:25,108 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-07-28 07:35:25,108 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-28 07:35:25,110 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-28 07:35:31,537 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-28 07:35:31,537 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-28 07:35:56,312 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-07-28 07:35:56,314 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-28 07:35:56,315 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-07-28 13:50:10,210 - SystemTrayIcon - INFO - Installation of all updates requested via menu
+2025-07-28 15:00:27,046 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-07-28 15:00:27,049 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-28 15:00:27,051 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-28 15:00:34,562 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-28 15:00:34,564 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-28 15:00:52,321 - WingetUpdateChecker - INFO - Parsed winget output, found 3 updates
+2025-07-28 15:00:52,325 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-28 15:00:52,327 - WingetUpdateChecker - INFO - Update check completed. Found 3 updates.
+2025-07-28 15:12:57,430 - SystemTrayIcon - INFO - Exiting application
+2025-07-28 15:12:57,482 - WingetUpdateChecker - INFO - Starting installation of all updates
+2025-07-28 15:12:57,482 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-28 15:12:57,491 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-28 15:13:02,128 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-28 15:13:02,128 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-28 15:13:02,625 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-28 15:13:02,626 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-28 15:13:19,850 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-07-28 15:13:19,856 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-28 15:13:19,856 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-07-28 15:13:19,856 - WingetUpdateChecker - INFO - Installing 6 updates
+2025-07-28 15:13:20,216 - WingetUpdateChecker - INFO - Parsed winget output, found 6 updates
+2025-07-28 15:13:20,216 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-28 15:13:20,216 - WingetUpdateChecker - INFO - Update check completed. Found 6 updates.
+2025-07-28 15:13:20,248 - WingetUpdaterStandalone - INFO - Application exited
+2025-07-29 20:38:29,427 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-29 20:38:29,435 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-29 20:38:29,441 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-29 20:38:36,907 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-29 20:38:36,907 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-29 20:39:05,374 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-07-29 20:39:05,381 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-29 20:39:05,381 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-07-29 20:39:05,381 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-29 20:39:05,381 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-29 20:39:05,387 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-29 20:39:05,388 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-29 20:39:13,708 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-29 20:39:13,713 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-29 20:39:39,597 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-07-29 20:39:39,597 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-29 20:39:39,597 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-07-30 07:35:09,168 - SystemTrayIcon - INFO - Scheduled update check at 07:35
+2025-07-30 07:35:09,170 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-30 07:35:09,172 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 07:35:15,557 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 07:35:15,558 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 07:35:36,281 - WingetUpdateChecker - INFO - Parsed winget output, found 7 updates
+2025-07-30 07:35:36,293 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 07:35:36,294 - WingetUpdateChecker - INFO - Update check completed. Found 7 updates.
+2025-07-30 14:16:30,937 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-30 14:16:30,944 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 14:16:30,948 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 14:16:35,998 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 14:16:36,000 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 14:16:51,919 - WingetUpdateChecker - INFO - Parsed winget output, found 7 updates
+2025-07-30 14:16:51,927 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 14:16:51,927 - WingetUpdateChecker - INFO - Update check completed. Found 7 updates.
+2025-07-30 14:16:51,934 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-30 14:16:51,934 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-30 14:16:51,935 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-30 14:16:51,935 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 14:16:56,282 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 14:16:56,284 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 14:17:12,497 - WingetUpdateChecker - INFO - Parsed winget output, found 7 updates
+2025-07-30 14:17:12,497 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 14:17:12,497 - WingetUpdateChecker - INFO - Update check completed. Found 7 updates.
+2025-07-30 15:00:23,817 - SystemTrayIcon - INFO - Scheduled update check at 15:00
+2025-07-30 15:00:23,825 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-30 15:00:23,825 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 15:00:33,502 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 15:00:33,502 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 15:00:49,666 - WingetUpdateChecker - INFO - Parsed winget output, found 7 updates
+2025-07-30 15:00:49,667 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 15:00:49,671 - WingetUpdateChecker - INFO - Update check completed. Found 7 updates.
+2025-07-30 16:26:40,875 - SystemTrayIcon - INFO - Installation of all updates requested via menu
+2025-07-30 16:26:51,214 - SystemTrayIcon - INFO - Exiting application
+2025-07-30 16:26:51,266 - WingetUpdateChecker - INFO - Starting installation of all updates
+2025-07-30 16:26:51,266 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:26:51,277 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:26:55,389 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:26:55,400 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:26:55,441 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:26:55,441 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:27:08,876 - WingetUpdateChecker - INFO - Parsed winget output, found 14 updates
+2025-07-30 16:27:08,876 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:27:08,876 - WingetUpdateChecker - INFO - Update check completed. Found 14 updates.
+2025-07-30 16:27:08,876 - WingetUpdateChecker - INFO - Installing 14 updates
+2025-07-30 16:27:09,489 - WingetUpdateChecker - INFO - Parsed winget output, found 14 updates
+2025-07-30 16:27:09,489 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:27:09,492 - WingetUpdateChecker - INFO - Update check completed. Found 14 updates.
+2025-07-30 16:27:09,510 - WingetUpdaterStandalone - INFO - Application exited
+2025-07-30 16:32:10,826 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-30 16:32:10,828 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:32:10,831 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:32:15,078 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:32:15,079 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:32:30,205 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-07-30 16:32:30,207 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:32:30,207 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-07-30 16:32:30,209 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-30 16:32:30,210 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-30 16:32:30,211 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-30 16:32:30,211 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:32:34,456 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:32:34,456 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:32:49,500 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-07-30 16:32:49,501 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:32:49,503 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-07-30 16:33:42,873 - SystemTrayIcon - INFO - Opening settings window
+2025-07-30 16:33:43,054 - SettingsWindow - DEBUG - Morning entry initial state: normal
+2025-07-30 16:33:43,061 - SettingsWindow - DEBUG - Afternoon entry initial state: normal
+2025-07-30 16:33:43,143 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:43,143 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:43,147 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:43,148 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:43,148 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:43,148 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:43,155 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:43,155 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:43,155 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:43,155 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:43,155 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:43,155 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:43,163 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:43,163 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:43,163 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:43,163 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:43,163 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:43,163 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:43,165 - SettingsWindow - INFO - Initial settings - morning: 07:35, afternoon: 15:00, notify: True, auto: True, include_pinned: False, include_unknown: False
+2025-07-30 16:33:43,165 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-30 16:33:43,165 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:43,166 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:43,676 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:43,677 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:43,677 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:43,677 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:43,677 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:43,677 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:44,172 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:44,172 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:44,172 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:44,172 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:44,172 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:44,172 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:45,171 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:45,171 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:45,171 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:45,171 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:45,173 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:45,173 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:48,176 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-30 16:33:48,176 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:48,176 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:51,838 - SettingsWindow - INFO - Include pinned changed to: True
+2025-07-30 16:33:51,848 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:51,848 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:51,848 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:51,848 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:51,848 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:51,848 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:53,178 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-30 16:33:53,179 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:53,179 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:56,268 - SettingsWindow - INFO - Include pinned changed to: False
+2025-07-30 16:33:56,275 - SettingsWindow - DEBUG - --- Widget States After Force Enable ---
+2025-07-30 16:33:56,275 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:56,275 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:33:56,275 - SettingsWindow - DEBUG - Auto check state: False
+2025-07-30 16:33:56,275 - SettingsWindow - DEBUG - Include pinned state: False
+2025-07-30 16:33:56,275 - SettingsWindow - DEBUG - Include unknown state: False
+2025-07-30 16:33:58,193 - SettingsWindow - DEBUG - --- Periodic Widget State Check ---
+2025-07-30 16:33:58,193 - SettingsWindow - DEBUG - Morning entry state: normal
+2025-07-30 16:33:58,193 - SettingsWindow - DEBUG - Afternoon entry state: normal
+2025-07-30 16:34:05,687 - SystemTrayIcon - INFO - Update check requested via menu
+2025-07-30 16:34:05,730 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-30 16:34:05,730 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:34:10,012 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:34:10,020 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:34:24,159 - WingetUpdateChecker - INFO - Parsed winget output, found 2 updates
+2025-07-30 16:34:24,165 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:34:24,165 - WingetUpdateChecker - INFO - Update check completed. Found 2 updates.
+2025-07-30 16:34:54,498 - SystemTrayIcon - INFO - Installation of all updates requested via menu
+2025-07-30 16:35:11,803 - SystemTrayIcon - INFO - Exiting application
+2025-07-30 16:35:11,834 - WingetUpdateChecker - INFO - Starting installation of all updates
+2025-07-30 16:35:11,837 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:35:11,844 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:35:15,976 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:35:15,976 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:35:16,209 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:35:16,212 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:35:31,382 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-07-30 16:35:31,382 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:35:31,387 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-07-30 16:35:31,387 - WingetUpdateChecker - INFO - Installing 4 updates
+2025-07-30 16:35:32,394 - WingetUpdateChecker - INFO - Parsed winget output, found 4 updates
+2025-07-30 16:35:32,394 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:35:32,394 - WingetUpdateChecker - INFO - Update check completed. Found 4 updates.
+2025-07-30 16:35:32,399 - WingetUpdaterStandalone - INFO - Application exited
+2025-07-30 16:36:48,686 - WingetUpdaterStandalone - INFO - Starting application in standalone mode
+2025-07-30 16:36:48,692 - root - INFO - Loaded configuration from C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:36:48,695 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:36:53,758 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:36:53,758 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:37:09,969 - WingetUpdateChecker - INFO - Parsed winget output, found 1 updates
+2025-07-30 16:37:09,969 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:37:09,969 - WingetUpdateChecker - INFO - Update check completed. Found 1 updates.
+2025-07-30 16:37:09,979 - SystemTrayIcon - INFO - Starting scheduler thread
+2025-07-30 16:37:09,979 - SystemTrayIcon - INFO - Starting Winget Updater system tray application
+2025-07-30 16:37:09,979 - SystemTrayIcon - INFO - Manually checking for updates
+2025-07-30 16:37:09,979 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:37:14,079 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:37:14,079 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:37:28,848 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-30 16:37:28,850 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini
+2025-07-30 16:37:28,850 - WingetUpdateChecker - INFO - Update check completed. Found 0 updates.
+2025-07-30 16:37:28,860 - WingetUpdateChecker - INFO - Starting synchronous update check
+2025-07-30 16:37:32,932 - WingetUpdateChecker - WARNING - All JSON format attempts failed
+2025-07-30 16:37:32,932 - WingetUpdateChecker - INFO - JSON format failed, falling back to text format
+2025-07-30 16:37:47,686 - WingetUpdateChecker - INFO - Parsed winget output, found 0 updates
+2025-07-30 16:37:47,686 - root - INFO - Configuration saved to C:\Users\magnus.sandstrom\AppData\Local\WingetUpdater\settings.ini

@@ -332,6 +332,9 @@ class WingetUpdateChecker:
             include_pinned: If True, include pinned packages in the results
             include_unknown: If True, include packages with unknown versions
         """
+        # Always refresh pinned packages before parsing
+        self._refresh_pinned_packages()
+        
         # Reset the updates list - always start fresh
         self.available_updates = []
         
@@ -448,6 +451,9 @@ class WingetUpdateChecker:
             include_pinned: If True, include pinned packages in the results
             include_unknown: If True, include packages with unknown versions
         """
+        # Always refresh pinned packages before processing section
+        self._refresh_pinned_packages()
+        
         # Skip empty sections
         if not section_lines:
             return
@@ -462,9 +468,18 @@ class WingetUpdateChecker:
                 parts = [p.strip() for p in re.split(r'\s{2,}', line.strip())]
                 
                 if len(parts) >= 4:
-                    # First try to extract version from name if present
                     name = parts[0]
                     id_str = parts[1]
+                    # Log the parsed ID for debugging
+                    self.logger.debug(f"Parsed package: name='{name}', id='{id_str}'")
+                    # If the ID looks truncated (ends with '.'), try to match by prefix in pinned_packages
+                    if id_str.endswith('.'):
+                        for pinned_id in self.pinned_packages:
+                            if pinned_id.startswith(id_str):
+                                id_str = pinned_id
+                                self.logger.debug(f"Expanded truncated id to full id: {id_str}")
+                                break
+                    # ...existing code...
                     version = parts[2]
                     available = parts[3]
                     
@@ -545,8 +560,11 @@ class WingetUpdateChecker:
             self.logger.warning(f"Failed to get list of pinned packages: {str(e)}")
     
     def _is_package_pinned(self, package_id):
-        """Check if a package is pinned"""
-        return package_id in self.pinned_packages
+        """Check if a package is pinned (allow prefix match for truncated IDs)"""
+        for pinned_id in self.pinned_packages:
+            if package_id == pinned_id or pinned_id.startswith(package_id) or package_id.startswith(pinned_id):
+                return True
+        return False
 
     def get_updates_list(self, include_pinned=None, include_unknown=None):
         """

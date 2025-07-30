@@ -1280,6 +1280,85 @@ class SystemTrayIcon:
                 self.updates_window = None
                 self.logger.debug("Updates window reference cleared")
     
+    def _create_confirmation_dialog(self, title, message):
+        """Create a custom confirmation dialog that works properly on Windows"""
+        # Create root window
+        root = tk.Tk()
+        root.title(title)
+        root.resizable(False, False)
+        root.attributes('-topmost', True)
+        
+        # Center on screen
+        root.update_idletasks()
+        width = 400
+        height = 150
+        screen_width = root.winfo_screenwidth()
+        screen_height = root.winfo_screenheight()
+        x = (screen_width - width) // 2
+        y = (screen_height - height) // 2
+        root.geometry(f"{width}x{height}+{x}+{y}")
+        
+        # Variable to store the result
+        result = tk.BooleanVar(value=False)
+        dialog_closed = threading.Event()
+        
+        # Create main frame
+        main_frame = ttk.Frame(root, padding="20")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Message label
+        message_label = ttk.Label(main_frame, text=message, wraplength=360, justify=tk.CENTER)
+        message_label.pack(pady=(0, 20))
+        
+        # Button frame
+        button_frame = ttk.Frame(main_frame)
+        button_frame.pack(fill=tk.X)
+        
+        # Button commands
+        def on_yes():
+            result.set(True)
+            dialog_closed.set()
+            root.quit()
+            
+        def on_no():
+            result.set(False)
+            dialog_closed.set()
+            root.quit()
+            
+        def on_close():
+            result.set(False)
+            dialog_closed.set()
+            root.quit()
+        
+        # Create buttons
+        no_button = ttk.Button(button_frame, text="No", command=on_no, width=12)
+        no_button.pack(side=tk.RIGHT, padx=(5, 0))
+        
+        yes_button = ttk.Button(button_frame, text="Yes", command=on_yes, width=12)
+        yes_button.pack(side=tk.RIGHT, padx=(5, 5))
+        
+        # Set up key bindings
+        root.bind('<Return>', lambda e: on_yes())
+        root.bind('<Escape>', lambda e: on_no())
+        
+        # Handle window close button
+        root.protocol("WM_DELETE_WINDOW", on_close)
+        
+        # Focus the dialog
+        root.focus_force()
+        yes_button.focus_set()
+        
+        # Run the dialog
+        try:
+            root.mainloop()
+        finally:
+            try:
+                root.destroy()
+            except:
+                pass
+        
+        return result.get()
+    
     def _on_install_updates(self):
         """Handle the 'Install All Updates' menu item"""
         self.logger.info("Installation of all updates requested via menu")
@@ -1295,36 +1374,26 @@ class SystemTrayIcon:
                 )
                 return
             
-            # Create a Tkinter root for the confirmation dialog
-            root = tk.Tk()
-            root.withdraw()  # Hide the main window
+            # Create custom confirmation dialog
+            message = (f"Are you sure you want to install {update_count} updates?\n\n"
+                      "This may take several minutes and require application restarts.")
             
-            try:
-                # Ask for confirmation before installing
-                if not messagebox.askyesno(
-                    "Confirm Installation",
-                    f"Are you sure you want to install {update_count} updates?\n\n"
-                    "This may take several minutes and require application restarts.",
-                    icon='warning'
-                ):
-                    root.destroy()
-                    return
-                
-                # Show a notification that installation is starting
-                self.icon.notify(
-                    "Starting installation of updates...",
-                    "Winget Updater"
-                )
-                
-                # Start installation in a separate thread to avoid blocking the UI
-                thread = threading.Thread(
-                    target=self._perform_installation,
-                    daemon=True
-                )
-                thread.start()
-                
-            finally:
-                root.destroy()
+            if not self._create_confirmation_dialog("Confirm Installation", message):
+                self.logger.info("User cancelled installation")
+                return
+            
+            # Show a notification that installation is starting
+            self.icon.notify(
+                "Starting installation of updates...",
+                "Winget Updater"
+            )
+            
+            # Start installation in a separate thread to avoid blocking the UI
+            thread = threading.Thread(
+                target=self._perform_installation,
+                daemon=True
+            )
+            thread.start()
                 
         except Exception as e:
             self.logger.error(f"Error initiating installation: {str(e)}")
