@@ -1012,171 +1012,103 @@ class SystemTrayIcon:
             )
     
     def _on_open_settings(self):
-        """Handle the 'Settings' menu item"""
-        self.logger.info("Opening settings window")
+        """Handle the 'Settings' menu item in a new thread"""
+        if self.settings_window and self.settings_window.winfo_exists():
+            self.logger.info("Settings window already open, bringing to front")
+            self._focus_existing_window(self.settings_window)
+            return
         
-        # Use a lock to prevent multiple windows from being created simultaneously
+        # Run in a separate thread to avoid blocking
+        thread = threading.Thread(target=self._create_settings_window, daemon=True)
+        thread.start()
+
+    def _create_settings_window(self):
+        """Create and run the settings window in a separate thread"""
         with self._window_lock:
-            # Avoid opening multiple settings windows
-            if self.settings_window is not None:
-                try:
-                    self.logger.debug("Settings window already exists, bringing to front")
-                    # Sequence of operations to ensure window is visible and focused
-                    self.settings_window.deiconify()
-                    self.settings_window.attributes('-topmost', True)
-                    self.settings_window.lift()
-                    self.settings_window.focus_force()
-                    
-                    # Force update the window
-                    self.settings_window.update()
-                    
-                    # Reset topmost after a short delay
-                    self.settings_window.after(1000, lambda: self.settings_window.attributes('-topmost', False))
-                    
-                    # Get all children widgets
-                    try:
-                        for child in self.settings_window.winfo_children():
-                            for grandchild in child.winfo_children():
-                                if isinstance(grandchild, ttk.Entry):
-                                    # Force entries to be enabled
-                                    grandchild['state'] = 'normal'
-                    except Exception as e:
-                        self.logger.error(f"Error updating widget states: {str(e)}")
-                        
-                    return
-                except Exception as e:
-                    self.logger.warning(f"Error focusing existing settings window: {str(e)}")
-                    # Window may have been closed improperly
-                    self.settings_window = None
-        
-        try:
-            # Create a new Tk instance for the settings window
-            root = tk.Tk()
-            root.title("Winget Updater Settings")
-            root.geometry("450x400")
-            root.resizable(False, False)
-            
-            # Set icon if available
+            if self.settings_window and self.settings_window.winfo_exists():
+                self._focus_existing_window(self.settings_window)
+                return
+
             try:
-                root.iconbitmap("winget_updater.ico")
+                root = tk.Tk()
+                self.settings_window = root
+
+                settings = SettingsWindow(root, self.config_manager, self._on_settings_saved)
+                
+                root.protocol("WM_DELETE_WINDOW", lambda: self._on_window_closed(self.settings_window, "settings"))
+                
+                self._run_and_cleanup_window(root, "settings")
             except Exception as e:
-                self.logger.debug(f"Could not set window icon: {str(e)}")
-            
-            # Center the window on screen
-            screen_width = root.winfo_screenwidth()
-            screen_height = root.winfo_screenheight()
-            x = int(screen_width/2 - 450/2)
-            y = int(screen_height/2 - 400/2)
-            root.geometry(f"450x400+{x}+{y}")
-            
-            # Make window topmost initially
-            root.attributes('-topmost', True)
-            root.after(1000, lambda: root.attributes('-topmost', False))
-            
-            # Store window reference
-            self.settings_window = root
-            
-            # Create the settings window content
-            settings = SettingsWindow(root, self.config_manager, self._on_settings_saved)
-            
-            # Handle window close
-            root.protocol("WM_DELETE_WINDOW", lambda: self._on_settings_window_closed(root))
-            
-            # Force initial widget state
-            root.after(100, lambda: self._force_window_widget_states(root))
-            
-            # Force update window
-            root.update_idletasks()
-            
-            # Make sure the window is properly focused
-            root.focus_set()
-            root.focus_force()
-            
-            self.logger.debug("Settings window created successfully")
-            
-            # Ensure window is responsive
-            root.after(100, lambda: root.focus_force())
-            
-            # Schedule initial widget state verification
-            root.after(100, lambda: self._verify_settings_window_widgets(root))
-            
-            # Run the window's event loop
-            root.mainloop()
-            
-        except Exception as e:
-            self.logger.error(f"Error creating settings window: {str(e)}")
-            if self.settings_window:
-                try:
-                    self.settings_window.destroy()
-                except:
-                    pass
+                self.logger.error(f"Error creating settings window: {str(e)}")
                 self.settings_window = None
-    
-    def _verify_settings_window_widgets(self, window):
-        """Verify and fix settings window widget states"""
+
+    def _on_show_updates(self):
+        """Handle the 'Show Updates' menu item in a new thread"""
+        if self.updates_window and self.updates_window.winfo_exists():
+            self.logger.info("Updates window already open, bringing to front")
+            self._focus_existing_window(self.updates_window)
+            return
+
+        updates = self.update_checker.get_updates_list()
+        if not updates:
+            self.icon.notify("No updates are currently available.", "Winget Updates")
+            return
+
+        # Run in a separate thread to avoid blocking
+        thread = threading.Thread(target=self._create_updates_window, args=(updates,), daemon=True)
+        thread.start()
+
+    def _create_updates_window(self, updates):
+        """Create and run the updates window in a separate thread"""
+        with self._window_lock:
+            if self.updates_window and self.updates_window.winfo_exists():
+                self._focus_existing_window(self.updates_window)
+                return
+
+            try:
+                root = tk.Tk()
+                self.updates_window = root
+
+                UpdateListWindow(root, updates)
+
+                root.protocol("WM_DELETE_WINDOW", lambda: self._on_window_closed(self.updates_window, "updates"))
+
+                self._run_and_cleanup_window(root, "updates")
+            except Exception as e:
+                self.logger.error(f"Error creating updates window: {str(e)}")
+                self.updates_window = None
+
+    def _focus_existing_window(self, window):
+        """Bring an existing window to the front and focus it"""
         try:
-            # Debug log current state
-            self.logger.debug("Verifying settings window widgets...")
-            
-            # Find and check all widgets
-            for child in window.winfo_children():
-                for widget in child.winfo_children():
-                    if isinstance(widget, ttk.Entry):
-                        self.logger.debug(f"Found entry widget with state: {widget['state']}")
-                        
-                        # Force enable entry widgets
-                        if widget['state'] != 'normal':
-                            self.logger.debug(f"Forcing entry widget to normal state")
-                            widget['state'] = 'normal'
-                            widget.config(state='normal')
-                    
-                    elif isinstance(widget, ttk.Checkbutton):
-                        self.logger.debug(f"Found checkbutton widget")
-                        
-                        # Force enable checkbuttons
-                        try:
-                            widget.state(['!disabled'])
-                        except:
-                            pass
-            
-            # Schedule another check after a delay
-            window.after(1000, lambda: self._verify_settings_window_widgets(window))
-            
+            window.deiconify()
+            window.lift()
+            window.attributes('-topmost', True)
+            window.after(100, lambda: window.attributes('-topmost', False))
+            window.focus_force()
         except Exception as e:
-            self.logger.error(f"Error verifying settings window widgets: {str(e)}")
-    
-    def _on_settings_window_closed(self, window):
-        """Handle the settings window being closed"""
-        self.logger.debug("Settings window closing")
+            self.logger.warning(f"Error focusing existing window: {str(e)}")
+
+    def _on_window_closed(self, window, window_type):
+        """Handle a window being closed"""
         with self._window_lock:
             try:
                 window.destroy()
-            except Exception as e:
-                self.logger.error(f"Error destroying settings window: {str(e)}")
+            except tk.TclError:
+                pass  # Ignore errors if window is already destroyed
             finally:
-                self.settings_window = None
-                self.logger.debug("Settings window reference cleared")
-                
-    def _force_window_widget_states(self, window):
-        """Force all entry widgets in the window to be enabled"""
+                if window_type == "settings":
+                    self.settings_window = None
+                elif window_type == "updates":
+                    self.updates_window = None
+                self.logger.info(f"{window_type.capitalize()} window closed")
+
+    def _run_and_cleanup_window(self, window, window_type):
+        """Run the main loop for a window and ensure cleanup"""
         try:
-            self.logger.debug("Forcing window widget states...")
-            for child in window.winfo_children():
-                for widget in child.winfo_children():
-                    if isinstance(widget, tk.Entry):
-                        widget['state'] = 'normal'
-                        widget.config(state='normal')
-                        widget.config(background='white')
-                        self.logger.debug(f"Forced entry widget state: {widget['state']}")
-                    elif isinstance(widget, ttk.Entry):
-                        widget['state'] = 'normal'
-                        widget.config(state='normal')
-                        self.logger.debug(f"Forced ttk.Entry widget state: {widget['state']}")
-            
-            # Schedule another check
-            window.after(500, lambda: self._force_window_widget_states(window))
-        except Exception as e:
-            self.logger.error(f"Error forcing window widget states: {str(e)}")
+            window.mainloop()
+        finally:
+            self._on_window_closed(window, window_type)
     
     def _on_settings_saved(self):
         """Handle settings being saved"""
@@ -1188,97 +1120,6 @@ class SystemTrayIcon:
             self._check_updates()
         except Exception as e:
             self.logger.error(f"Error checking updates after settings change: {str(e)}")
-    
-    def _on_show_updates(self):
-        """Handle the 'Show Updates' menu item"""
-        # Use a lock to prevent multiple windows from being created simultaneously
-        with self._window_lock:
-            # Avoid opening multiple update windows
-            if self.updates_window is not None:
-                try:
-                    self.logger.debug("Updates window already exists, bringing to front")
-                    self.updates_window.deiconify()
-                    self.updates_window.attributes('-topmost', True)
-                    self.updates_window.after(1000, lambda: self.updates_window.attributes('-topmost', False))
-                    self.updates_window.lift()
-                    self.updates_window.focus_force()
-                    return
-                except Exception as e:
-                    self.logger.warning(f"Error focusing existing updates window: {str(e)}")
-                    # Window may have been closed improperly
-                    self.updates_window = None
-        
-        # Get the list of updates
-        updates = self.update_checker.get_updates_list()
-        
-        if not updates:
-            # Show a notification if no updates are available
-            self.icon.notify(
-                "No updates are currently available.",
-                "Winget Updates"
-            )
-            return
-        
-        try:
-            # Create a new updates window
-            root = tk.Tk()
-            root.title("Available Updates")
-            root.geometry("700x400")
-            root.resizable(True, True)
-            
-            # Set icon if available
-            try:
-                root.iconbitmap("winget_updater.ico")
-            except Exception as e:
-                self.logger.debug(f"Could not set window icon: {str(e)}")
-            
-            # Center the window on screen
-            screen_width = root.winfo_screenwidth()
-            screen_height = root.winfo_screenheight()
-            x = int(screen_width/2 - 700/2)
-            y = int(screen_height/2 - 400/2)
-            root.geometry(f"700x400+{x}+{y}")
-            
-            # Make window topmost initially
-            root.attributes('-topmost', True)
-            root.after(1000, lambda: root.attributes('-topmost', False))
-            
-            # Store window reference
-            self.updates_window = root
-            
-            # Create the updates list content
-            UpdateListWindow(root, updates)
-            
-            # Handle window close
-            root.protocol("WM_DELETE_WINDOW", lambda: self._on_updates_window_closed(root))
-            
-            # Focus the window
-            root.focus_force()
-            
-            self.logger.debug("Updates window created successfully")
-            
-            # Run the window's event loop
-            root.mainloop()
-            
-        except Exception as e:
-            self.logger.error(f"Error creating updates window: {str(e)}")
-            if self.updates_window:
-                try:
-                    self.updates_window.destroy()
-                except:
-                    pass
-                self.updates_window = None
-    
-    def _on_updates_window_closed(self, window):
-        """Handle the updates window being closed"""
-        with self._window_lock:
-            try:
-                window.destroy()
-            except Exception as e:
-                self.logger.error(f"Error destroying updates window: {str(e)}")
-            finally:
-                self.updates_window = None
-                self.logger.debug("Updates window reference cleared")
     
     def _create_confirmation_dialog(self, title, message):
         """Create a custom confirmation dialog that works properly on Windows"""
